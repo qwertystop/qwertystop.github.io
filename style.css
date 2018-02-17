@@ -1,10 +1,35 @@
-html {
-  margin: 2em;
-  background-color: #1057B0;
-}
 body {
-  font-family: georgia;
-  line-height: 1.2;
-  font-size: 1.2em;
-  color: #eeeeee;
+ margin: 2em;
+ background-color: #1057b0;
+ font-family: georgia;
+ line-height: 1.2;
+ font-size: 1.2em;
+ color: #dddddd;
+}
+
+.wrapper {
+ float: left;
+ width: 30em;
+ margin: 2em;
+}
+
+a {
+ color: #57b010;
+ text-decoration: none;
+}
+
+a:visited {
+ color: #5710b0;
+}
+
+a:hover, a:active, a:focus {
+ color: cyan;
+}
+
+.breadcrumbs {
+ font-size: 0.8em;
+}
+
+.breadcrumb:after {
+ content: " / "
 }
