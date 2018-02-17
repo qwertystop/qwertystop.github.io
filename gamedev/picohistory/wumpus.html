@@ -1,0 +1,113 @@
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Picohistory: Wumpus @ Hobbyist's Heap</title>
+  <meta name="description" content="">
+  <link rel=StyleSheet href="/style/style.css" type="text/css">
+  <link rel=StyleSheet href="/style/pico8.css" type="text/css">
+ </head>
+
+ <body>
+  <div class="wrapper">
+   <div id="page">
+    <div id="top">
+     <div class="breadcrumbs">
+      <span class="breadcrumb">
+       <a href="/">Hobbyist's Heap</a>
+       ::after
+      </span>
+      <span class="breadcrumb">
+       <a href="/gamedev">Game Development</a>
+       ::after
+      </span>
+      <span class="breadcrumb">
+       <a href="/gamedev">Picohistory</a>
+       ::after
+      </span>
+     </div>
+     <h1>Hunt the Wumpus, But With Audio And Graphics</h1>
+    </div>
+    <div class="nontop">
+     <div id="content">
+      <h2>Controls and Instructions:</h2>
+      <p><strong>Arrow keys</strong> to move (one room at a time). <strong>Z, C, or N</strong> to prepare an arrow (then give up to 5 directions to give it a path). <strong>X, V, or M</strong> to listen to the sounds in your current room.</p>
+      <p>You are in a maze of twenty caves. You need to find, and shoot, the Wumpus.</p>
+      <p>If you walk into a room with a bat in it, it will carry you to another room. If you walk into a room with a pit or the Wumpus in it, you will die and the game resets.</p>
+      <p>In each room, you can listen: Bats and bottomless pits can be heard from adjacent rooms, but the Wumpus's snoring can be heard two rooms away.</p>
+      <p>You are advised to keep your own map on a bit of paper; the moss color should be useful there. If you miss with an arrow, the Wumpus will move, but bats and pits stay put.</p>
+     </div>
+     <div class="pico8">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+
+      <script type="text/javascript">
+var canvas = document.getElementById("canvas");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+// show Emscripten environment where the canvas is
+// arguments are passed to PICO-8
+
+var Module = {};
+Module.canvas = canvas;
+
+/*
+ // When pico8_buttons is defined, PICO-8 takes each int to be a live bitfield
+// representing the state of each player's buttons
+
+   var pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0]; // max 8 players
+   pico8_buttons[0] = 2 | 16; // example: player 0, RIGHT and Z held down
+
+// when pico8_gpio is defined, reading and writing to gpio pins will
+// read and write to these values
+   var pico8_gpio = new Array(128);
+ */
+      </script>
+
+      <script async type="text/javascript" src="wumpus.js"></script>
+
+      <script type="text/javascript" src="/scripts/pico8/keyblocker.js"></script>
+
+      <br>
+
+      <div class=pico8_el onclick="Module.pico8Reset();">
+
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Reset" width=12 height=	12/>
+
+       Reset</div>
+
+      <div class=pico8_el onclick="Module.pico8TogglePaused();">
+
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAPUlEQVR4Ae3doQ0AIAxEUWABLPtPh2WCq26DwFSU/JPNT166QSu/Hg86W9dwLte+diP7AwAAAAAAgD+A+jM2ZAgo84I0PgAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Pause" width=12 height=12/>
+
+       Pause</div>
+      <div class=pico8_el onclick="Module.requestFullScreen(true, false);">
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dsQ1AIQhExfze1v2ns3UCrfgFhmgUUAoGgHscp21wX9BqaZoDojbB96OkDJKNcTN2BHTyYNYmoT2BlPL7BKgcPfHjAVXKKadkHOn9K1r16N0czN6a95N8mnA7Aq2fTZ3Af3UKmCSMazL8HwAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Fullscreen" width=12 height=12/>
+
+       Fullscreen</div>
+      <div class=pico8_el onclick="Module.pico8ToggleSound();">
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAXklEQVR4Ae2doQ4AIQxD4YLH8v9fh+ULhjpxxSwLg2uyapr1JRu1iV5Z+1BGl4+xNpX38SYo2uRvYiT5LwEmt+ocgXVLrhPEgBiw8Q5w7/kueSkK+D2tJO4E/I3GrwkqQCBabEj/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Toggle Sound" width=12 height=12/>
+
+       Sound</div>
+      <div class=pico8_el ><a target="_blank" href="http://www.lexaloffle.com/bbs/?cat=7&sub=2">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAlElEQVR4Ae2dMQ5FQBCGh6jcwAkkateg3DiAa+iQUGqVKi95FQfAJRQOoHeBUf8JyQqKjZ1uMzuz2e/LTE3KhyF7kSlgLOykas23f6D+A9Yp84aAOYU15pcJnfji0Il2ID8HzC4y38ZrnfIBGxeRoR3c3EWrACdsV5BOsx7OSRnrOXh4F5HzA6bevwUn8wlz7eCDsQM99B3ks0s/4QAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="More Carts" width=12 height=12/>
+
+        Carts</a></div>
+
+      <br>
+     </div>
+     <p id="ancestors">
+     <a class="ancestor" href="/gamedev/picohistory">Back to Picohistory</a>
+     <br>
+     <a class="ancestor" href="/gamedev">Back to Game Development</a>
+     <br>
+     <a class="ancestor" href="/">Back to Hobbyist's Heap</a>
+     <br>
+     </p>
+    </div>
+   </div>
+   <div id="footer">
+   </div>
+  </div>
+ </body>
+</html>
