@@ -13,9 +13,9 @@ body {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 1.5em;
 	font-weight: bold;
-	margin-bottom: 1em;
+	border-bottom: 1px solid #606060;
 }
 
 .breadcrumbs {
@@ -27,13 +27,6 @@ h1 {
 }
 
 h2 {
-	color: #eeeeee;
-	font-size: 1.5em;
-	font-weight: bold;
-	border-bottom: 1px solid #606060;
-}
-
-h3 {
 	margin: 2em 0 1em;
 	font-size: 1.25em;
 	font-weight: bold;
