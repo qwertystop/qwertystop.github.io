@@ -47,6 +47,10 @@ a:hover, a:active, a:focus {
 	color: #dd4;
 }
 
+#content {
+	margin: 3em 0;
+}
+
 #footer {
 	display: inline;
 	text-align: center;
