@@ -15,7 +15,7 @@ body {
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
-	border-bottom: 1px solid #606060;
+	border-bottom: 1px solid #666;
 }
 
 .breadcrumbs {
@@ -31,7 +31,7 @@ h2 {
 	font-size: 1.25em;
 	font-weight: bold;
 	color: #98afd4;
-	border-bottom: 1px dotted #606060;
+	border-bottom: 1px dotted #666;
 }
 
 a {
@@ -45,4 +45,14 @@ a:visited {
 
 a:hover, a:active, a:focus {
 	color: #dd4;
+}
+
+#footer {
+	display: inline;
+	text-align: center;
+	color: #999;
+	margin: 3em 0 0 0;
+	padding-top: 1em;
+	border-top: 1px solid #666;
+	font-size: 0.8em;
 }
