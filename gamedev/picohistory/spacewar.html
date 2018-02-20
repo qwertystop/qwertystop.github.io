@@ -23,12 +23,23 @@
         <a href="/gamedev/picohistory">Picohistory</a>
        </span>
       </div>
-      <h1>Spacewar!, But The Bullets Wrap Around Too</h1>
+      <h1>Spacewar!, Rebuilt Without Playing The Original</h1>
      </div>
      <div class="nontop">
       <h2>Controls and Instructions:</h2>
       <p>Left and right to rotate, up to thrust, down to teleport. <strong>Arrow keys</strong> control the Needle; <strong>ESDF</strong> control the Wedge. Needle shoots with <strong>N</strong>, Wedge with <strong>Tab or Left Shift</strong>.</p>
       <p>You each have five shots and about four seconds of thrust. That will be plenty.</p>
+      <h2>Changes from the original:</h2>
+      <ul>
+       <li>Teleportation is instant and has no chance of self-destruction</li>
+       <li>Generally higher mobility (thrust is stronger than gravity unless extremely nearby the star)</li>
+       <li>The star takes up a larger portion of the screen</li>
+       <li>Projectiles are affected by gravity</li>
+       <li>There is no cooldown between firing shots</li>
+       <li>Projectiles do not have a limited range</li>
+       <li>Ammunition limit is much smaller</li>
+       <li>Fuel limit is probably different, but I haven’t been able to last long enough to run out in either one.</li>
+      </ul>
      </div>
      <div class="pico8">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
