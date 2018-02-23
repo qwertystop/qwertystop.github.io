@@ -6,9 +6,9 @@ body {
 	color: #ddd;
 }
 
-.wrapper {
+#wrapper {
 	float: left;
-	width: 30em;
+	width: 35em;
 	margin: 2em;
 }
 
