@@ -9,7 +9,7 @@
  </head>
 
  <body>
-  <div class="wrapper">
+  <div id="wrapper" class="pico8page">
    <div id="page">
     <div id="content">
      <div id="top">
@@ -26,42 +26,11 @@
       </div>
       <h1>Pong, But You Move In 2D</h1>
      </div>
-     <div class="nontop">
-      <h2>Controls and Instructions:</h2>
-      <p>Left player moves with <b>ESDF</b>. Right player with <strong>arrow keys.</strong></p>
-      <p>First to ten wins. The farther forward you are, the faster the ball moves when you hit it. You can go past the centerline if you want.</p>
-     </div>
-
      <div class="pico8">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
-      <script type="text/javascript">
-var canvas = document.getElementById("canvas");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-// show Emscripten environment where the canvas is
-// arguments are passed to PICO-8
-
-var Module = {};
-Module.canvas = canvas;
-
-/*
- // When pico8_buttons is defined, PICO-8 takes each int to be a live bitfield
-// representing the state of each player's buttons
-
-  var pico8_buttons = [0, 0, 0, 0, 0, 0, 0, 0]; // max 8 players
-  pico8_buttons[0] = 2 | 16; // example: player 0, RIGHT and Z held down
-
-// when pico8_gpio is defined, reading and writing to gpio pins will
-// read and write to these values
-  var pico8_gpio = new Array(128);
- */
-      </script>
-
+      <script type="text/javascript" src="/scripts/pico8/p8vars.js"></script>
       <script async type="text/javascript" src="pong.js"></script>
-
       <script type="text/javascript" src="/scripts/pico8/keyblocker.js"></script>
-
       <br>
       <div class=pico8_el onclick="Module.pico8Reset();">
        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAaklEQVR4Ae2dOwoAMQhE15A+rfc/3bZ7AlMnQfywCkKsfcgMM9ZP+QHtIn0vLeBAFduiFdQ/0DmvtR5LXJ6CPSXe2ZXcFNlTxFbemKrbZPs35XogeS9xeQr+anT6LzoOwEDwZJ7jwhXUnwkTTiDQ2Ja34AAAABB0RVh0TG9kZVBORwAyMDExMDIyMeNZtsEAAAAASUVORK5CYII=" alt="Reset" width=12 height=	12/>
@@ -82,6 +51,11 @@ Module.canvas = canvas;
        </a>
       </div>
       <br>
+     </div>
+     <div class="nontop">
+      <h2>Controls and Instructions:</h2>
+      <p>Left player moves with <b>ESDF</b>. Right player with <strong>arrow keys.</strong></p>
+      <p>First to ten wins. The farther forward you are, the faster the ball moves when you hit it. You can go past the centerline if you want.</p>
      </div>
     </div>
     <p id="ancestors">

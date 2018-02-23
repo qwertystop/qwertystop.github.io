@@ -34,5 +34,13 @@ canvas {
   image-rendering: optimize-contrast;
   image-rendering: pixelated;
   -ms-interpolation-mode: nearest-neighbor;
-  border: 0px
+  border: 0px;
+}
+
+div.pico8 {
+	float: right;
+}
+
+#wrapper.pico8page {
+	width: 60em;
 }
