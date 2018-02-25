@@ -44,3 +44,7 @@ div.pico8 {
 #wrapper.pico8page {
 	width: 60em;
 }
+
+#wrapper.pico8page div.nontop {
+	width: 30em;
+}
