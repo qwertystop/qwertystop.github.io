@@ -1,0 +1,26 @@
+---
+---
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include p8head.html -%}
+
+  <body>
+   <div id="wrapper" class="pico8page">
+    <div id="page">
+     <div id="content">
+      <div id="top">
+    {%- include header.html -%}
+      </div>
+      {%- include pico8.html -%}
+      <main class="nontop">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+     </div>
+    {%- include footer.html -%}
+    </div>
+   </div>
+  </body>
+
+</html>
