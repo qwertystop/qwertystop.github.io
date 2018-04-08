@@ -3,7 +3,7 @@ layout: default
 title: Picohistory
 date: 2018-04-06
 category: gamedev
-tags: picohistory
+tags: picohistory games
 ---
 
 ## Classic games, remade on the PICO-8
