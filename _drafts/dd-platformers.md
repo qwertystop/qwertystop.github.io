@@ -31,176 +31,191 @@ any design patterns that might show up in them.
 In the end, I settled on twenty different fields. Each is named below, along
 with its defining question and any elaboration that felt necessary.
 
-<dl>
-<dt>Series:</dt>
-<dd>**What series is the game in?** Since my process was to keep
-adding games until I ran out of time, and since seriality wasn't the only thing
-I was trying to explore, there are games with no series here, as well as series
-where I didn't include all of the games.</dd>
+### Series:
+- **What series is the game in?** Since my process was to keep adding games
+  until I ran out of time, and since seriality wasn't the only thing I was
+  trying to explore, there are games with no series here, as well as series
+  where I didn't include all of the games.
 
-<dt>Subgenre:</dt>
-<dd>**Does the game fit into any smaller category within "platformers"?** These
-are unavoidably subjective; I came up with four.</dd>
-<dd>*Action* refers to a platformer where the actual platforms are more often a
-setting for combat than an agility or navigation challenge. Combat is generally
-some mix of easily-dispatched enemies and significant boss fights, with few or
-none in a middle-ground.</dd>
-<dd>*Challenge* platformers, in contrast, have little or no combat and a very
-strong focus on difficult movement-based challenges, each challenge usually
-being fairly small and contained. High precision and low reaction times are a
-must.</dd>
-<dd>*Collectathon* is... slightly negative, as a term, I'll be honest. These
-games are about hunting through a large world for hidden things. New content is
-gated behind semi-arbitrary counts of how many such things you've already
-found. Usually, there's several types of things to collect, and the
-things you're finding are more often scattered or hidden, rather than being
-placed explicitly as the targets of distinct levels or challenges.</dd>
-<dd>*Metroidvania* is, contrary to how it sounds, a fairly widespread name for
-the category. These are games where the player explores an interconnected world,
-continually gaining new abilities and/or learning skills and mechanics that allow
-them to access an ever-increasing portion of that world.</dd>
+### Subgenre:
+- **Does the game fit into any smaller category within "platformers"?** These
+  are unavoidably subjective; I came up with four.
+- *Action* refers to a platformer where the actual platforms are more often a
+  setting for combat than an agility or navigation challenge. Combat is
+  generally some mix of easily-dispatched enemies and significant boss fights,
+  with few or none in a middle-ground.
+- *Challenge* platformers, in contrast, have little or no combat and a very
+  strong focus on difficult movement-based challenges, each challenge usually
+  being fairly small and contained. High precision and low reaction times are a
+  must.
+- *Collectathon* is... slightly negative, as a term, I'll be honest. These
+  games are about hunting through a large world for hidden things. New content
+  is gated behind semi-arbitrary counts of how many such things you've already
+  found. Usually, there's several types of things to collect, and the things
+  you're finding are more often scattered or hidden, rather than being placed
+  explicitly as the targets of distinct levels or challenges.
+- *Metroidvania* is, contrary to how it sounds, a fairly widespread name for
+  the category. These are games where the player explores an interconnected
+  world, continually gaining new abilities and/or learning skills and mechanics
+  that allow them to access an ever-increasing portion of that world.
 
-<dt>Secondary genre:</dt>
-<dd>**Does the game fit into any genres besides "platformer"?** The only genre
-I found among the games I included was *RPG*, short for "role-playing game" and
-referring to games with some form of progression of capabilities for the
-player-character, as well as (usually) a significant narrative aspect.</dd>
+### Secondary genre:
+- **Does the game fit into any genres besides "platformer"?** The only genre I
+  found among the games I included was *RPG*, short for "role-playing game" and
+  referring to games with some form of progression of capabilities for the
+  player-character, as well as (usually) a significant narrative aspect.
 
-<dt>Year of release:</dt>
-<dd>**What year was the game initially released in?** Remakes don't count, and
-in cases where the game was released to different markets at different times, I
-used the earliest. This doesn't completely pin down the environment at the time
-of development, since games might take more or less time to make, but still
-gives enough context for the potential of some sort of progression.</dd>
+### Year of release:
+- **What year was the game initially released in?** Remakes don't count, and in
+  cases where the game was released to different markets at different times, I
+  used the earliest. This doesn't completely pin down the environment at the
+  time of development, since games might take more or less time to make, but
+  still gives enough context for the potential of some sort of progression.
 
-<dt>Primarily vertical or horizontal:</dt>
-<dd>**In what direction does the player traverse the world?**</dd>
-<dd>Valid values are *Horizontal*, *Vertical*, and *Mixed*.</dd>
+### Primarily vertical or horizontal:
+- **In what direction does the player traverse the world?** Valid values are
+  *Horizontal*, *Vertical*, and *Mixed*.
 
-<dt>Backtracking:</dt>
-<dd>**Is the player often required to cross the same areas multiple
-times?**</dd>
-<dd>Valid values are *Yes* and *No*.</dd>
+### Backtracking:
+- **Is the player often required to cross the same areas multiple times?**
+  Valid values are *Yes* and *No*.
 
-<dt>Physical structure:</dt>
-<dd>**Does the player commonly have multiple valid routes by which to
-progress?**</dd>
-<dd>Valid values are *Open* (indicating many choices), *Linear*
-(indicating no choices), and *Mixed* (indicating long alternating periods of
-one or the other).</dd>
-<dd>If there's only one correct route but also one or more incorrect routes
-(dead-ends, optional areas, places to return to later), and exploration is
-required to know which is which, that counts as multiple routes.</dd>
+### Physical structure:
+- **Does the player commonly have multiple valid routes by which to progress?**
+- Valid values are *Open* (indicating many choices), *Linear* (indicating no
+  choices), and *Mixed* (indicating long alternating periods of one or the
+  other).
+- If there's only one correct route but also one or more incorrect routes
+  (dead-ends, optional areas, places to return to later), and exploration is
+  required to know which is which, that counts as multiple routes.
 
-<dt>Jump combat:</dt>
-<dd>**Is the standard "jumping" action also used to dispatch
-enemies?** This is distinct from an action with the primary purpose of
-attacking, which incidentally causes vertical movement.</dd>
-<dd>Valid values are *Yes* and *No*.</dd>
+### Jump combat:
+- **Is the standard "jumping" action also used to dispatch enemies?** This is
+  distinct from an action with the primary purpose of attacking, which
+  incidentally causes vertical movement.  Valid values are *Yes* and *No*.
 
-<dt>Melee combat:</dt>
-<dd>**Is there an action dedicated to attacking enemies near the player
-character?** For example, a sword-swing, punch, or a projectile with extremely
-limited range. This does not require that the game visually displays some form
-of physical contact, only that the attack has a small maximum reach.</dd>
-<dd>Valid values are *Yes* and *No*.</dd>
+### Melee combat:
+- **Is there an action dedicated to attacking enemies near the player
+  character?** For example, a sword-swing, punch, or a projectile with
+  extremely limited range. This does not require that the game visually
+  displays some form of physical contact, only that the attack has a small
+  maximum reach.  Valid values are *Yes* and *No*.
 
-<dt>Ranged combat:</dt>
-<dd>**Can enemies be fought at a significant distance?** For example, guns,
-archery, or some magic. Projectiles are usually but not always involved.</dd>
-<dd>Valid values are *Yes*, *No*, and *Slightly/Special* (e.g. ranged combat using thrown
-environmental objects which are not always present and can't be hoarded, or
-ranged weapons only available in certain circumstances).
+### Ranged combat:
+- **Can enemies be fought at a significant distance?** For example, guns,
+  archery, or some magic. Projectiles are usually but not always involved.
+  Valid values are *Yes*, *No*, and *Slightly/Special* (e.g. ranged combat
+  using thrown environmental objects which are not always present and can't be
+  hoarded, or ranged weapons only available in certain circumstances).
 
-<dt>2D/3D:</dt>
-<dd>**Does the game features 2D or 3D gameplay?** This is about gameplay, not
-graphics: If the game displays 3D models, but the player can only move within
-and interact with a 2D plane, that's a 2D game.</dd>
-<dd>Valid values are *2* and *3*.</dd>
+### 2D/3D:
+- **Does the game features 2D or 3D gameplay?** This is about gameplay, not
+  graphics: If the game displays 3D models, but the player can only move within
+  and interact with a 2D plane, that's a 2D game.  Valid values are *2* and
+  *3*.
 
-<dt>Collectibles:</dt>
-<dd>**Does the game feature some objects whose purpose is to be sought and
-found?** A game which visualizes level-completed by placing some shiny thing
-at the end of each level does not count here; that's just a differently-shaped
-finish line. Nor does a game which has health or ammo pickups; those have a
-use. Maybe they're hidden, maybe they're behind a puzzle or you need to be
-really good to get them, but collectibles are just something to let you show
-off your score. Maybe, at most, getting enough of them unlocks extra levels –
-but "which ones did you get" only matters for figuring out which ones you
-haven't got; the unlock will be based on a tally.</dd>
-<dd>Valid values are *Yes* and *No*.</dd>
+### Collectibles:
+- **Does the game feature some objects whose purpose is to be sought and
+  found?** A game which visualizes level-completed by placing some shiny thing
+  at the end of each level does not count here; that's just a
+  differently-shaped finish line. Nor does a game which has health or ammo
+  pickups; those have a use.
+- Maybe they're hidden, maybe they're behind a puzzle or you need to be really
+  good to get them, but collectibles are just something to let you show off
+  your score.
+- Maybe, at most, getting enough of them unlocks extra levels – but "which ones
+  did you get" only matters for figuring out which ones you haven't got; the
+  unlock will be based on a tally.  Valid values are *Yes* and *No*.
 
-<dt>Power-up:</dt>
-<dd>**Are there things to be found which provide a temporary change in
-gameplay?** You get a thing, it gives you some bonus, but eventually (maybe
-it's timed, maybe it's when you get hurt, maybe it's until-end-of-level) it
-wears off.</dd>
-<dd>Valid values are *Yes* and *No*.</dd>
+### Power-up:
+- **Are there things to be found which provide a temporary change in
+  gameplay?** You get a thing, it gives you some bonus, but eventually (maybe
+  it's timed, maybe it's when you get hurt, maybe it's until-end-of-level) it
+  wears off.
+- Valid values are *Yes* and *No*.
 
-<dt>Swimming:</dt>
-<dd>**Does the game feature swimming (or other aquatic traversal mechanics)?**
-Typically, games with swimming either repurpose "jump" as "swim up", or let you
-move in any direction and use "jump" as "swim forward" (or "swim faster").
-Games without will either not feature water, feature water as an
-instant-death hazard, or have the player sink to the bottom. In the latter
-case, if the water is not purely cosmetic, this usually means slower movement,
-altered jumps (either higher or lower), and maybe a timer.</dd>
-<dd>Valid values are *Yes*, *No*, and *Sink* (if it's purely cosmetic, it
-counts as "No", not "Sink").</dd>
+### Swimming:
+- **Does the game feature swimming (or other aquatic traversal mechanics)?**
+- Typically, games with swimming either repurpose "jump" as "swim up", or let
+  you move in any direction and use "jump" as "swim forward" (or "swim
+  faster").
+- Games without will either not feature water, feature water as an
+  instant-death hazard, or have the player sink to the bottom. In the latter
+  case, if the water is not purely cosmetic, this usually means slower
+  movement, altered jumps (either higher or lower), and maybe a timer.
+- Valid values are *Yes*, *No*, and *Sink* (if it's purely cosmetic, it counts
+  as "No", not "Sink").
 
-<dt>Air control:</dt>
-<dd>**How much can the player steer while in the air?** This is mostly by feel,
-but as rough guidelines: *Strong* indicates that you can fall from above a
-hazard, avoid it, and land directly below it, or that you can jump moving forwards,
-reverse direction, and land behind your starting location. *Weak*
-indicates enough control to aim for a small platform, but not to do the above
-acrobatics without a very long fall. *None* indicates that the trajectory of a
-jump cannot be modified after leaving the ground.</dd>
+### Air control:
+- **How much can the player steer while in the air?** This is mostly by feel,
+  but as rough guidelines: *Strong* indicates that you can fall from above a
+  hazard, avoid it, and land directly below it, or that you can jump moving
+  forwards, reverse direction, and land behind your starting location. *Weak*
+  indicates enough control to aim for a small platform, but not to do the above
+  acrobatics without a very long fall. *None* indicates that the trajectory of
+  a jump cannot be modified after leaving the ground.
 
-<dt>Airjump:</dt>
-<dd>**Can you jump while airborne?**</dd>
-<dd>Valid values are *Yes*, *No* and *Slightly/Special* (indicating that
-airjumping is available only in limited situations).</dd>
+### Airjump:
+- **Can you jump while airborne?** Valid values are *Yes*, *No* and
+  *Slightly/Special* (indicating that airjumping is available only in limited
+  situations).
 
-<dt>Walljump:</dt>
-<dd>**Can the player jump off of the side of a wall (rather than the
-ground)?**</dd>
-<dd>Valid values are *Yes*, *No* and *Slightly/Special* (indicating that
-walljumping is available only in limited situations).</dd>
+### Walljump:
+- **Can the player jump off of the side of a wall (rather than the ground)?**
+  Valid values are *Yes*, *No* and *Slightly/Special* (indicating that
+  walljumping is available only in limited situations).
 
-<dt>Leeway for errors:</dt>
-<dd>**How much room does the game give the player to make mistakes without
-being kicked out?** This was my attempt to partially quantify difficulty,
-inspired initially by
-[a blog post](http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html)
-by the pseudonymous "Ghoul King", on the idea of separating a *difficult* game
-from a *punishing* one. More on that later.</dd>
-<dd>Valid values are *Low* (one or zero mistakes), *Moderate* (two or more),
-and *High* (basically infinite, such as games where health regenerates so
-you're fine if you don't rush).</dd>
+### Leeway for errors:
+- **How much room does the game give the player to make mistakes without being
+  kicked out?** This was my attempt to partially quantify difficulty, inspired
+  initially by [a blog
+  post](http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html) by the
+  pseudonymous "Ghoul King", on the idea of separating a *difficult* game from
+  a *punishing* one. More on that later.
+- Valid values are *Low* (one or zero mistakes), *Moderate* (two or more), and
+  *High* (basically infinite, such as games where health regenerates so you're
+  fine if you don't rush).
 
+### Multiplayer:
+- **Does the main game have multiplayer (not separated as a different game)?**
+  Multiplayer minigames separate from the main game don't count; neither do
+  "race" or "battle" modes on a distinct set of rules and levels from the main
+  game.
+- Valid values are *No*, *Co-op*, and *Competitive*, but I didn't find any of
+  the latter.
 
-<dt>Multiplayer:</dt>
-<dd>**Does the main game have multiplayer (not separated as a different
-game)?** Multiplayer minigames separate from the main game don't count; neither
-do "race" or "battle" modes on a distinct set of rules and levels from the main
-game.</dd>
-<dd>Valid values are *No*, *Co-op*, and *Competitive*, but I didn't find any of
-the latter.</dd>
+### Story:
+- **Does the game have a story, and if so, how much does it matter?** This is
+  probably the most subjective field here, because just about every game is
+  going to at least have a tiny introductory cutscene or a few paragraphs in
+  the manual to provide context.
+- *Yes* indicates that the story is a driving force for the game.
+- *Cue* indicates that the story doesn't have much impact beyond an
+  in-character way to give the player hints at what they need to do next.
+- *No* indicates that whatever story might exist isn't particularly worth
+  dwelling on, and doesn't even come up often; the fun lies entirely elsewhere.
 
-
-<dt>Story:</dt>
-<dd>**Does the game have a story, and if so, how much does it matter?** This is
-probably the most subjective field here, because just about every game is going
-to at least have a tiny introductory cutscene or a few paragraphs in the manual
-to provide context. *Yes* indicates that the story is a driving force for the
-game. *Cue* indicates that the story doesn't have much impact beyond an
-in-character way to give the player hints at what they need to do next. *No*
-indicates that whatever story might exist isn't particularly worth dwelling on,
-and doesn't even come up often; the fun lies entirely elsewhere.</dd>
-</dl>
-
-My data is available [on Google Sheets](https://docs.google.com/spreadsheets/d/1wxGqqzOtGg0ZRy0hV_xzv5t378TDh-DZ6l4ikLKx2VM/edit?usp=sharing).
+My data is available [in CSV form](https://github.com/qwertystop/config-d3-fdg/blob/platformer-analysis-freeze/data.csv).
 
 ## … And Why It Didn't Work
-Turns out, nuance is an important thing.
+Turns out, nuance is an important thing. *Sure*, it sounds obvious in
+retrospect…
+
+Anyway, first thing I did was look for some correlations. Unfortunately, I am
+no statistician, and freely admit I don't know how to do that rigorously.
+So I took the spreadsheet, color-coded everything, sorted it a few different
+ways. Apart from games in a series often appearing to be fairly similar to each
+other, nothing jumped out at me. And that much wasn't exactly interesting.
+
+# TODO EMBED SCREENS HERE
+
+I also wrote a d3 script to take the data and allow it to be grouped and
+organized. Again, though, I didn't see many patterns, and what I did find
+wasn't very helpful.
+
+# TODO LINK OR EMBED APP HERE
+
+Closer examination still wasn't very productive, and further consideration led
+me to find reasons why none of my metrics worked out.
+
+So, let's go down the list, shall we?
