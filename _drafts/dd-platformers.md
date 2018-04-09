@@ -7,9 +7,8 @@ tags: games
 
 ## Some context
 This piece was originally written as a class project; I have decided to present
-my results in the form of a blog-post due to the fact that this seems to be the
-easiest way to mix text with embedded images and video, and it allows for a
-slightly nicer tone than a formal paper.
+my results in hypertext because I need to include images and video. Also, the
+blog-post format allows for a slightly nicer tone than a formal paper.
 
 The class, as a whole, was about the concept of originality, and the varied
 ways in which creative works can draw on earlier, preexisting works. The
@@ -116,16 +115,16 @@ with its defining question and any elaboration that felt necessary.
 
 ### Collectibles:
 - **Does the game feature some objects whose purpose is to be sought and
-  found?** A game which visualizes level-completed by placing some shiny thing
+  found?**
+- A game which visualizes level-completed by placing some shiny thing
   at the end of each level does not count here; that's just a
-  differently-shaped finish line. Nor does a game which has health or ammo
-  pickups; those have a use.
+  differently-shaped finish line.
+- Nor does a game which has health or ammo pickups; those have a use.
+- Upgrades do count, if they don't provide anything mandatory, and need to be
+  *found* rather than being bought or given as rewards.
 - Maybe they're hidden, maybe they're behind a puzzle or you need to be really
-  good to get them, but collectibles are just something to let you show off
-  your score.
-- Maybe, at most, getting enough of them unlocks extra levels – but "which ones
-  did you get" only matters for figuring out which ones you haven't got; the
-  unlock will be based on a tally.  Valid values are *Yes* and *No*.
+  good to get them, but there's lots of them, 
+- Valid values are *Yes* and *No*.
 
 ### Power-up:
 - **Are there things to be found which provide a temporary change in
@@ -195,7 +194,7 @@ with its defining question and any elaboration that felt necessary.
 - *No* indicates that whatever story might exist isn't particularly worth
   dwelling on, and doesn't even come up often; the fun lies entirely elsewhere.
 
-My data is available [in CSV form](https://github.com/qwertystop/config-d3-fdg/blob/platformer-analysis-freeze/data.csv).
+My data is available [in CSV form](https://github.com/qwertystop/config-d3-fdg/blob/master/data.csv).
 
 ## … And Why It Didn't Work
 Turns out, nuance is an important thing. *Sure*, it sounds obvious in
@@ -213,9 +212,30 @@ I also wrote a d3 script to take the data and allow it to be grouped and
 organized. Again, though, I didn't see many patterns, and what I did find
 wasn't very helpful.
 
-# TODO LINK OR EMBED APP HERE
+# TODO LINK APP HERE
 
 Closer examination still wasn't very productive, and further consideration led
 me to find reasons why none of my metrics worked out.
 
 So, let's go down the list, shall we?
+
+### Working as expected
+
+The whole point of establishing a series is that the consumer knows what to expect,
+no? As such, it's no surprise that games in the same series tended to have a
+lot in common. Unfortunately, that doesn't give me very much information. Every
+metric was similar across all or almost all of the games in any given series.
+
+One notable standout here was a correlation with the **2D/3D divide**, which
+acted almost like a subseries: Games in the same series most often had
+differences in metrics when one game was 2D and the other was 3D. This is a
+somewhat interesting design choice; 2D and 3D games are capable of presenting
+similar experiences, but developers of platformers seem not to want to go in
+that direction. This is more true in some cases than others, of course: Compare
+Metroid games, which are usually fairly similar in gameplay, to Mario or Sonic,
+which have two fairly distinct blocks.
+
+(Dotted lines separate 2D from 3D games; solid lines separate series from each
+other)
+
+<iframe src="/assets/html/2d-3d-mario-sonic-metroid-table.html" style="width:150%;height:30em"></iframe>

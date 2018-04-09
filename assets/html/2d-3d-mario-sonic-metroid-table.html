@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Differences between 2D and 3D Games within series</title>
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <style type="text/css">
+td {
+ font-size: 0.5em;
+}
+tr.head > td {
+ border-bottom: 1px double #55F;
+ border-left: 1px solid #55f;
+}
+tr.series > td {
+ border-top: 1px solid #55F;
+}
+tr.dimension > td {
+ border-top: 1px dashed #55F;
+}
+td.c1 {
+ background-color: #002299;
+}
+td.c2 {
+ background-color: #1155AA;
+}
+td.c3 {
+ background-color: #3399FF;
+}
+  </style>
+ </head>
+ <body>
+  <table cellspacing="0" border="0">
+   <tbody><tr class="head">
+     <td>Name</td>
+     <td>Primarily vertical or horizontal</td>
+     <td>Backtracking</td>
+     <td>Physical structure</td>
+     <td>Jump combat</td>
+     <td>Melee combat</td>
+     <td>Ranged combat</td>
+     <td>2D/3D</td>
+     <td>Collectibles</td>
+     <td>Power-up</td>
+     <td>Swimming</td>
+     <td>Air control</td>
+     <td>Airjump</td>
+     <td>Walljump</td>
+     <td>Leeway for Errors</td>
+     <td>Multiplayer</td>
+     <td>Story</td>
+    </tr>
+    <tr class="series">
+     <td>Super Mario Bros</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Low</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario Bros 2 (JP)</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Low</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario Bros 3</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">No</td>
+     <td class="c2">Low</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario Bros 2 (US)</td>
+     <td class="c3">Mixed</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario Land</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Low</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario World</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">No</td>
+     <td class="c2">Low</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Super Mario Land 2</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Strong</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>New Super Mario Bros</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>New Super Mario Bros Wii</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c1">Co-op</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>New Super Mario Bros 2</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>New Super Mario Bros U</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c1">Co-op</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr class="dimension">
+     <td>Super Mario 64</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Super Mario Sunshine</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Strong</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Super Mario Galaxy</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Strong</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c1">Co-op</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Super Mario Galaxy 2</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Strong</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c1">Co-op</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr class="series">
+     <td>Metroid</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">No</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Metriod II: Return of Samus</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">No</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Super Metroid</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c3">Cue</td>
+    </tr>
+    <tr>
+     <td>Metroid Fusion</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr class="dimension">
+     <td>Metroid Prime</td>
+     <td class="c1">Horizontal</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Metroid Prime 2: Echoes</td>
+     <td class="c1">Horizontal</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Metroid Prime 3: Corruption</td>
+     <td class="c1">Horizontal</td>
+     <td class="c1">Yes</td>
+     <td class="c2">Open</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Metroid: Other M</td>
+     <td class="c1">Horizontal</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Moderate</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr class="series">
+     <td>Sonic the Hedgehog</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic the Hedgehog 2</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c1">Co-op</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic CD</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic &amp; Knuckles</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic the Hedgehog 3</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Advance</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Advance 2</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Advance 3</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">High</td>
+     <td class="c1">Co-op</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Rush</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Rush Adventure</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Boom: Shattered Crystal</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Mania</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">2</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c1">Co-op</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr class="dimension">
+     <td>Sonic 3D Blast</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+    </tr>
+    <tr>
+     <td>Sonic Adventure</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Adventure 2</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Heroes</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Shadow the Hedgehog</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic the Hedgehog (2006)</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic and the Secret Rings</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Unleashed</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic and the Black Knight</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Colors</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Generations</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c3">Slightly/ Special</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Lost World</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c3">Sink</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c1">Co-op</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Boom: Rise of Lyric</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c1">Linear</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">No</td>
+     <td class="c1">Strong</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+    <tr>
+     <td>Sonic Forces</td>
+     <td class="c1">Horizontal</td>
+     <td class="c2">No</td>
+     <td class="c3">Mixed</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">3</td>
+     <td class="c1">Yes</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c2">Weak</td>
+     <td class="c1">Yes</td>
+     <td class="c2">No</td>
+     <td class="c1">High</td>
+     <td class="c2">No</td>
+     <td class="c1">Yes</td>
+    </tr>
+   </tbody></table>
+ </body>
+</html>
