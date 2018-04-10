@@ -219,7 +219,7 @@ me to find reasons why none of my metrics worked out.
 
 So, let's go down the list, shall we?
 
-### Working as expected
+### Seriality and dimensions
 
 The whole point of establishing a series is that the consumer knows what to expect,
 no? As such, it's no surprise that games in the same series tended to have a
@@ -227,7 +227,7 @@ lot in common. Unfortunately, that doesn't give me very much information. Every
 metric was similar across all or almost all of the games in any given series.
 
 One notable standout here was a correlation with the **2D/3D divide**, which
-acted almost like a subseries: Games in the same series most often had
+seems almost like a subseries: Games in the same series most often had
 differences in metrics when one game was 2D and the other was 3D. This is a
 somewhat interesting design choice; 2D and 3D games are capable of presenting
 similar experiences, but developers of platformers seem not to want to go in
@@ -235,10 +235,23 @@ that direction. This is more true in some cases than others, of course: Compare
 Metroid games, which are usually fairly similar in gameplay, to Mario or Sonic,
 which have two fairly distinct blocks.
 
-(Dotted lines separate 2D from 3D games; solid lines separate series from each
-other)
+Dotted lines separate 2D from 3D games; solid lines separate series from each
+other.
 
 <iframe src="/assets/html/2d-3d-mario-sonic-metroid-table.html" style="width:150%;height:30em"></iframe>
+
+ In each series, we can see that some traits are consistent in a series,
+but others are much more common on (or exclusive to) either 2D or 3D games.
+
+- 3D Mario games have at least a little bit of story and more varied layouts,
+  mostly avoid ranged combat, and give some form of air-jump (which also provides
+  improved air control).
+- 3D Metroid games all give the player an air-jump early enough to count as
+  "Yes" rather than "Slightly/Special" (though on the other hand, it's much
+  more limited than in the 2D games – this is a bit of lost nuance). They're
+  quite similar beyond that, though.
+- 3D Sonic games have more linear gameplay, often remove jump-combat and water,
+  provide an airjump, and have some emphasis on a story.
 
 ### Genre savvy? Not so much.
 
