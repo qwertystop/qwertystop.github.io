@@ -168,7 +168,7 @@ with its defining question and any elaboration that felt necessary.
 - **How much room does the game give the player to make mistakes without being
   kicked out?** This was my attempt to partially quantify difficulty, inspired
   initially by [a blog
-  post](http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html) by the
+  post][vigaroe-yoshi] by the
   pseudonymous "Ghoul King", on the idea of separating a *difficult* game from
   a *punishing* one. More on that later.
 - Valid values are *Low* (one or zero mistakes), *Moderate* (two or more), and
@@ -220,8 +220,8 @@ So, let's go down the list, shall we?
 ### Seriality and dimensions
 
 The whole point of establishing a series is that the consumer knows what to expect,
-no? As such, it's no surprise that games in the same series tended to have a
-lot in common. Unfortunately, that doesn't give me very much information. Every
+no? As such, it's no surprise that **games in the same series tended to have a
+lot in common**. Unfortunately, that doesn't give me very much information. Every
 metric was similar across all or almost all of the games in any given series.
 
 One notable standout here was a correlation with the **2D/3D divide**, which
@@ -262,25 +262,28 @@ There is insufficient data for a meaningful result here.
 ### Plot and player-count: Mainly a side-note.
 
 The presence or absence of a story generally meant little for the rest of the
-gameplay: A story can be applied to, or witheld from, just about any game
-that doesn't have its narrative as a primary focus. Additionally, many of the
-games listed here are from a time when technical limitations prevented there
-from being enough memory to fit a story into a game at a reasonable price, and
-most of the rest are in series that were established during that time. If
-narrative was never why people bought the game, it's hard to justify the
-expense of hiring writers for the sequel.
+gameplay: **A story can be applied to, or witheld from, just about any game
+that doesn't have its narrative as a major design focus**. Additionally, many
+of the games listed here are from a time when technical limitations prevented
+there from being enough memory to fit a story into a game at a reasonable
+price, and most of the rest are in series that were established during that
+time. If narrative was never why people bought the game, it's hard to justify
+the expense of hiring writers for the sequel.
 
 There is the one interesting note that 3D Mario and Sonic games tend to include
 a story while the 2D ones avoid it, but that doesn't seem to extend to 2D vs.
 3D in general.
 
-Multiplayer, too, has very little impact here. Most platformers don't have it;
-when it is present, any influence it might have on the game design would have
-to be more abstract than these metrics. Many platformers that have a cooperative
-multiplayer mode treat it with a light-hearted tone, as well: more "friends
-romping around" than "everybody working together", with the game as a whole
-designed more around the single-player experience. It was not a good decision
-to include multiplayer in this project; it's a distraction, not a useful measure.
+**Multiplayer, too, has very little impact**, for roughly similar reasons.
+It's a tack-on much more often than it's a core part of the game's design.
+Most platformers don't have it; when it is present, any influence it might have
+on the game design would have to be more abstract than these metrics. Many
+platformers that have a cooperative multiplayer mode treat it with a
+light-hearted tone, as well: more "friends romping around" than "everybody
+working together", with the game as a whole designed more around the
+single-player experience. It was not a good decision to include multiplayer in
+this project; it's a distraction, not a useful measure.
+
 ### Getting the shape of things
 The next three had a noticeable – if obvious-in-retrospect – correlation. Using
 [the graphing script from before][cfdg], I sorted the games by their layout and
@@ -297,5 +300,7 @@ few other games had it.
 This might not be especially surprising, but I suppose it's nice to see my
 intuitions confirmed.
 
+[vigaroe-yoshi]: http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html
+    "Difficulty, Yoshi's Island"
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
     "Configurable force-directed graph"
