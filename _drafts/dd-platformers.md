@@ -208,11 +208,9 @@ other, nothing jumped out at me. And that much wasn't exactly interesting.
 
 # TODO EMBED SCREENS HERE
 
-I also wrote a d3 script to take the data and allow it to be grouped and
+I also wrote [a d3 script][cfdg] to take the data and allow it to be grouped and
 organized. Again, though, I didn't see many patterns, and what I did find
 wasn't very helpful.
-
-# TODO LINK APP HERE
 
 Closer examination still wasn't very productive, and further consideration led
 me to find reasons why none of my metrics worked out.
@@ -283,3 +281,21 @@ multiplayer mode treat it with a light-hearted tone, as well: more "friends
 romping around" than "everybody working together", with the game as a whole
 designed more around the single-player experience. It was not a good decision
 to include multiplayer in this project; it's a distraction, not a useful measure.
+### Getting the shape of things
+The next three had a noticeable – if obvious-in-retrospect – correlation. Using
+[the graphing script from before][cfdg], I sorted the games by their layout and
+the amount of player choice available, and then tried various color-codings. My
+results, with labels and a legend:
+
+![Screenshot of automated grapher](/assets/img/layout-structure-backtrack.png)
+
+The games with **more player choice tended to be of mixed layout**, while both
+other categories of choice (and thus, the data as a whole) were
+majority-horizontal. Additonally, all open games had backtracking, while very
+few other games had it.
+
+This might not be especially surprising, but I suppose it's nice to see my
+intuitions confirmed.
+
+[cfdg]: https://qwertystop.github.io/config-d3-fdg/
+    "Configurable force-directed graph"
