@@ -239,3 +239,34 @@ which have two fairly distinct blocks.
 other)
 
 <iframe src="/assets/html/2d-3d-mario-sonic-metroid-table.html" style="width:150%;height:30em"></iframe>
+
+### Genre savvy? Not so much.
+
+Unfortunately, I didn't have enough games here that could be classified with
+subgenres or secondary genres; when I did, they were mostly in the same series,
+which would tend to mask whatever commonalities were actually part of the genre.
+
+There is insufficient data for a meaningful result here.
+
+### Plot and player-count: Mainly a side-note.
+
+The presence or absence of a story generally meant little for the rest of the
+gameplay: A story can be applied to, or witheld from, just about any game
+that doesn't have its narrative as a primary focus. Additionally, many of the
+games listed here are from a time when technical limitations prevented there
+from being enough memory to fit a story into a game at a reasonable price, and
+most of the rest are in series that were established during that time. If
+narrative was never why people bought the game, it's hard to justify the
+expense of hiring writers for the sequel.
+
+There is the one interesting note that 3D Mario and Sonic games tend to include
+a story while the 2D ones avoid it, but that doesn't seem to extend to 2D vs.
+3D in general.
+
+Multiplayer, too, has very little impact here. Most platformers don't have it;
+when it is present, any influence it might have on the game design would have
+to be more abstract than these metrics. Many platformers that have a cooperative
+multiplayer mode treat it with a light-hearted tone, as well: more "friends
+romping around" than "everybody working together", with the game as a whole
+designed more around the single-player experience. It was not a good decision
+to include multiplayer in this project; it's a distraction, not a useful measure.
