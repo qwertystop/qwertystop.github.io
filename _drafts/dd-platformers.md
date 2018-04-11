@@ -123,7 +123,7 @@ with its defining question and any elaboration that felt necessary.
 - Upgrades do count, if they don't provide anything mandatory, and need to be
   *found* rather than being bought or given as rewards.
 - Maybe they're hidden, maybe they're behind a puzzle or you need to be really
-  good to get them, but there's lots of them, 
+  good to get them, but there's lots of them.
 - Valid values are *Yes* and *No*.
 
 ### Power-up:
@@ -241,15 +241,15 @@ other.
  In each series, we can see that some traits are consistent in a series,
 but others are much more common on (or exclusive to) either 2D or 3D games.
 
-- 3D Mario games have at least a little bit of story and more varied layouts,
-  mostly avoid ranged combat, and give some form of air-jump (which also provides
-  improved air control).
-- 3D Metroid games all give the player an air-jump early enough to count as
+- 3D *Mario* games have at least a little bit of story and more varied layouts,
+  mostly avoid ranged combat, and give some form of air-jump (which also
+  provides improved air control).
+- 3D *Metroid* games all give the player an air-jump early enough to count as
   "Yes" rather than "Slightly/Special" (though on the other hand, it's much
-  more limited than in the 2D games – this is a bit of lost nuance). They're
-  quite similar beyond that, though.
-- 3D Sonic games have more linear gameplay, often remove jump-combat and water,
-  provide an airjump, and have some emphasis on a story.
+  more limited than in the 2D games – this is a more granular than my
+  data-collecting supported). They're quite similar beyond that, though.
+- 3D *Sonic* games have more linear gameplay, often remove jump-combat and
+  water, provide an airjump, and have some emphasis on a story.
 
 ### Genre savvy? Not so much.
 
@@ -270,9 +270,9 @@ price, and most of the rest are in series that were established during that
 time. If narrative was never why people bought the game, it's hard to justify
 the expense of hiring writers for the sequel.
 
-There is the one interesting note that 3D Mario and Sonic games tend to include
-a story while the 2D ones avoid it, but that doesn't seem to extend to 2D vs.
-3D in general.
+There is the one interesting note that 3D *Mario* and *Sonic* games tend to
+include a story while the 2D ones avoid it, but that doesn't seem to extend to
+2D vs. 3D in general.
 
 **Multiplayer, too, has very little impact**, for roughly similar reasons.
 It's a tack-on much more often than it's a core part of the game's design.
@@ -292,7 +292,7 @@ results, with labels and a legend:
 
 ![Screenshot of automated grapher](/assets/img/layout-structure-backtrack.png)
 
-The games with **more player choice tended to be of mixed layout**, while both
+**The games with more player choice tended to be of mixed layout**, while both
 other categories of choice (and thus, the data as a whole) were
 majority-horizontal. Additonally, all open games had backtracking, while very
 few other games had it.
@@ -324,8 +324,8 @@ one game that features a mix of both combat styles.
 # INCLUDE COMMENTARY POINTING THINGS OUT IN EACH CLIP
 
 To be clear, my point here is not that these games are representative of all
-combat-styles, but that the combat style does not make for a reliable predictor
-of much else about the game.
+combat-styles, but that **the combat style does not make for a reliable predictor
+of much else about a game**.
 
 The idea I had for jumping combat seems to have been relatively accurate, but
 since the time I compiled this dataset, I've heard of at least one game
@@ -333,16 +333,16 @@ since the time I compiled this dataset, I've heard of at least one game
 
 # CLIP OF DOWNWELL HERE
 
-It may not have made it on the list, but *Downwell* is a platformer that takes place largely in
-freefall: while you do have a gun in addition to the option to stomp enemies,
-that gun only shoots down, so you're still lining up jumps (from one head to
-the next) as the core of the combat.
+It may not have made it on the list, but *Downwell* is a platformer that takes
+place largely in freefall: while you do have a gun in addition to the option to
+stomp enemies, that gun only shoots down, so you're still lining up jumps (from
+one head to the next) as the core of the combat.
 
 Compare that to *Donkey Kong Country: Tropical Freeze*:
 
 # CLIP OF DKCTF HERE
 
-This is very much the sort of game I was thinking of in my earlier analysis;
+This is very much the sort of game I was thinking of in my earlier analysis:
 "enemies" serve mainly as things to jump over or bounce off of, rather than as
 something to fight.
 
