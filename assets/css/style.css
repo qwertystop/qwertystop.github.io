@@ -40,6 +40,12 @@ h3 {
 	color: #98afd4;
 }
 
+h3 {
+	font-size: 1.1em;
+	font-weight: italic;
+	color: #98afd4;
+}
+
 a {
 	color: #3d3;
 	text-decoration: none;
