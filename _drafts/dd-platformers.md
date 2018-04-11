@@ -392,7 +392,88 @@ by completionism are unlikely to stay interested for long.
 
 # SCREEN SHOWING COLLECTIBLE COUNT FOR A COLLECTATHON
 
-### Swimming and power-ups COME UP WITH A BETTER TITLE
+### Three approaches to the power-up
+
+Power-ups were another badly-defined grouping. In some cases – *Mario* and
+*Sonic* come to mind for their high variety – power-ups are a way to make the
+game temporarily easier, until you mess up. A few seconds of invincibility
+([traditionally][sonic-invuln] [with][mario-invuln] [music][kirby-invuln]), is
+a common one across a variety of games. *Sonic* games often provide [shields
+with side-effects](http://sonic.wikia.com/wiki/Item_Box#List_of_power-ups),
+*Mario* games tend more towards costumes (that look like [miscellaneous
+objects](https://www.mariowiki.com/List_of_power-ups) until used). In both
+of these cases, and some others, power-ups are treated by the game design as a
+prize, and a bit of relief: Find them, and things get a bit easier for a while.
+
+On the other hand, *Kirby* games (for example) treat power-ups more like
+equipment. They're not required, but they're not hidden prizes, either: You can
+find them all over the place, there's a wide variety of powers, and you only
+rarely need to have any specific one (usually for optional challenges, where
+the challenge is "how do I get to this place without losing this power" rather
+than having to do anything particularly tricky when you get there). The games
+tend to be built around the assumption that you've got something, without
+caring about what it is. Another game that demonstrates this pattern (though
+they're not as heavily emphasized there) is *Castlevania: Symphony of the
+Night* (specifically, the
+[sub-weapons](http://castlevania.wikia.com/wiki/Symphony_of_the_Night_Inventory#Sub-Weapons)).
+In both cases, powers aren't required, and they aren't (usually) a prize;
+they're just one more thing to mess around with.
+
+In yet a third group, some games will shove a power-up at you at the start of a
+section, which provides a major change in the gameplay while it lasts. You
+can't beat the level without that boost, and it won't be given where it isn't
+necessary. One example of this is the Feather in *Celeste*:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GJA504P2i9w?rel=0&amp;start=550" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+The Feather gives Madeline (the redhead) the ability to fly for a few seconds.
+Most of the areas with a Feather in that game require her to fly efficiently
+around obstacles from each Feather to the next, before running out of time and
+falling. This also appears in some levels of *Yoshi's Island*, which turn Yoshi
+into various vehicles at the starting-point of a section, and teleport him back
+there if he can't reach the end before a time limit. For example, the third
+"Secret" level in the GBA remake is focused entirely on such transformations.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YjUJ7AeG1jk?rel=0&amp;start=79" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Submerged diversions
+
+Swimming is generally treated by most platformers as something similar to the
+third kind of power-up: A section of the game that plays differently from the
+rest. Where water is present in a game, and not treated as an instant-death
+hazard, there's two common ways of handling it (and one less-common), plus one
+optional addendum.
+
+First, and most-common in my experience, is the **free-swimming** approach. You
+go in the water, and you can swim around as you like. Some games do
+this by slowing movement and replacing "jump" with "swim up a little", leaving
+the controls otherwise unmodified; other games let you swim in any
+direction using the usual direction controls, with "jump" becoming "swim a
+little faster". The former approach is more common in 2D, and the latter in 3D.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mCHgirqdiHc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IuCO9GC9_ZM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Second is **sinking**. In this case, water reduces movement speed and (usually)
+increases jump height, but the character can't swim, and instead just sinks to
+the bottom.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y7ABdzKLkwY?rel=0&amp;start=124" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Either of these are sometimes, but not always, combined with a drowning risk –
+if you stay underwater for too long in one go, game over. Usually, there's
+air bubbles or something to extend the time limit; some games will technically
+have a time limit but rarely have a water section long enough for it to matter.
+
+Finally, and rarest, is **floating**. The character floats on the surface of
+the water, and can't swim under. This is presumably rare because of how little
+it offers in gameplay, relative to simply having solid ground. Most often, this
+combines with either limits on what can be done while floating (e.g. no
+carrying objects, or no attacks), or involves the use of momentum to dive for a
+short time before floating back up (find somewhere high to fall from so that
+you can get through an underwater passage). This appears near the start of the
+Yoshi's Island video in the previous section (rewind to before where it loads).
+I couldn't find a better clip – as I said, this is rare.
 
 ### Air control, airjumps, walljumps BETTER TITLE
 
@@ -406,3 +487,6 @@ by completionism are unlikely to stay interested for long.
     "Configurable force-directed graph"
 [downwell]: https://www.devolverdigital.com/games/view/downwell
     "Publisher's official page for Downwell"
+[sonic-invuln]: https://youtu.be/BbzjOKqaQPY?t=11s
+[mario-invuln]: https://youtu.be/HKYVwSOe4Qo
+[kirby-invuln]: https://yout.be/neE5SgVjfDs
