@@ -348,6 +348,50 @@ something to fight.
 
 ### Collectibles COME UP WITH A BETTER TITLE
 
+#### Mastery and challenge
+Collectibles, as measured here, are perhaps the worst case of lost nuance in my
+dataset. In some games, such as the original *Yoshi's Island* or the *New Super
+Mario Bros.* sub-series, finding all the hidden things is a goal in and of
+itself. They're all over the place (*Yoshi's Island* has twenty-five; *New
+Super Mario Bros.* has three), and finding all of them unlocks even more
+levels, the hardest in the game. These games use collectibles as a way for the
+player to prove their mastery, and then reward the player with more challenges
+to master.
+
+# YOSHI'S ISLAND SCOREBOARD, ADD CAPTION
+
+#### Many small prizes
+In others, such as most "Metroidvania" games, collectibles take the form of
+small upgrades (usually for health, ammunition, or similar). These games
+usually show you a counter or percentage, and might give a special
+congratulation at the end for 100% completion, but the main reason to hunt them
+down is that they make the game easier (or that you find them while looking for
+something else). They're not required, and in fact, players looking for a
+challenge are as likely to go for a no-upgrade run as they are to aim for 100%.
+In this case, finding them all is about persistence more than anything else,
+and the journey is most of the reward, because anyone who's played the game
+enough to find all the upgrades is unlikely to actually need them. Still, the
+fact that each one provides some tangible benefit can get players to look – or,
+at least, to enjoy incidental finds – when the journey isn't enough on its own.
+
+# SCREEN ILLUSTRATING SUPER METROID OR SOTN COLLECTIBLES
+
+#### Standing alone, for better or for worse
+Still other games put collectibles front-and-center; this is a defining trait
+of "collectathons", which were a major subgenre of early 3D platformers that
+haven't gone away completely. In this case, finding all the hidden things is
+the entire point; the nominal "goal" of the game as described by whatever plot
+there is (usually minimal) is reached long before finding everything, and the
+miscellaneous shinies you're hunting down are as likely to be on the other side
+of a tricky gauntlet of difficult jumps as they are to be under a random bush
+five feet behind your starting location. There may be rewards given at various
+increments – usually unlocking new areas to explore – but these will eventually
+run dry. The journey is the destination again, but this time without much
+pretense of any other reason to search, so those players who aren't motivated
+by completionism are unlikely to stay interested for long.
+
+# SCREEN SHOWING COLLECTIBLE COUNT FOR A COLLECTATHON
+
 ### Swimming and power-ups COME UP WITH A BETTER TITLE
 
 ### Air control, airjumps, walljumps BETTER TITLE
