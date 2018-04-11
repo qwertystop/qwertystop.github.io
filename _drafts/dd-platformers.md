@@ -161,9 +161,8 @@ This is very much the sort of game I was thinking of in my earlier analysis:
 "enemies" serve mainly as things to jump over or bounce off of, rather than as
 something to fight.
 
-### Collectibles COME UP WITH A BETTER TITLE
+### Collectibles, hidden and sought
 
-#### Mastery and challenge
 Collectibles, as measured here, are perhaps the worst case of lost nuance in my
 dataset. In some games, such as the original *Yoshi's Island* or the *New Super
 Mario Bros.* sub-series, finding all the hidden things is a goal in and of
@@ -175,7 +174,6 @@ to master.
 
 # YOSHI'S ISLAND SCOREBOARD, ADD CAPTION
 
-#### Many small prizes
 In others, such as most "Metroidvania" games, collectibles take the form of
 small upgrades (usually for health, ammunition, or similar). These games
 usually show you a counter or percentage, and might give a special
@@ -191,7 +189,6 @@ at least, to enjoy incidental finds – when the journey isn't enough on its own
 
 # SCREEN ILLUSTRATING SUPER METROID OR SOTN COLLECTIBLES
 
-#### Standing alone, for better or for worse
 Still other games put collectibles front-and-center; this is a defining trait
 of "collectathons", which were a major subgenre of early 3D platformers that
 haven't gone away completely. In this case, finding all the hidden things is
@@ -251,7 +248,7 @@ there if he can't reach the end before a time limit. For example, the third
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YjUJ7AeG1jk?rel=0&amp;start=79" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-### Submerged diversions
+### Submersive diversions
 
 Swimming is generally treated by most platformers as something similar to the
 third kind of power-up: A section of the game that plays differently from the
@@ -290,14 +287,110 @@ you can get through an underwater passage). This appears near the start of the
 Yoshi's Island video in the previous section (rewind to before where it loads).
 I couldn't find a better clip – as I said, this is rare.
 
-### Air control, airjumps, walljumps BETTER TITLE
+### Unusual modes of mobility
 
-### How to measure difficulty? BETTER TITLE
+Air-jumps, air-control, and wall-jumps. The most physically plausible of these
+was also the last to come to platformers: Air-jumping and air-control give
+the player more control over what they're doing, while also being fairly
+trivial to add to a game in development: just don't bother checking whether the
+character is on the ground when the player tries to move or jump! Those have
+been around for ages. The presence or absence of air-jumping makes for serious
+differences in level design. On the other hand, these days, air-control will certainly be
+present, the only question being one of scale.
 
-## Pushing the boundaries BETTER TITLE, ALSO THIS IS A NEW SECTION
+Wall-jumping, on the other hand, is a whole new thing – still around for ages,
+but slightly shorter ones, and there's plenty of games that deliberately don't
+have it or limit it. The addition of a walljump adds entirely new questions:
+What angle do they jump at, and how fast? Should it be straight up, usable to
+climb a wall, or do you need two walls close together to bounce between? Or is
+it nearly horizontal, so you can't gain height with it, only move laterally? If
+you're close enough to a wall to jump, can you slide down it to fall slower?
+Different games handle this in a variety of ways – notably, *Super Metroid*,
+the first in the series to have wall-jumping in it, doesn't tell the player
+about it directly. The only way to find out is [when the game leads you to get
+stuck at the bottom of a pit, at which point some small animals demonstrate the
+concept](https://www.youtube.com/watch?v=e0opyh5LyqU) (leaving the actual
+controls required to trial-and-error). Most games are better about it than
+this.
 
-[vigaroe-yoshi]: http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html
-    "Difficulty, Yoshi's Island"
+Still, for all three of these, presence-or-absence (or strength, for air
+control) isn't enough of a measure. The *New Super Mario Bros.* games all have
+wall-jumping, pretty good air control (just a shade below what I would have
+called "strong"), and all but one provide limited air-jumping in the form of
+various power-ups, depending on the game.  Nevertheless, they only rarely give
+you any walls worth jumping off of (the number of times it's actually
+*required* can be counted on one hand), never require complicated midair
+maneuvering, and only require the use of air-jumps for occasional collectibles
+(of the "prove your skill" kind).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YUj5XAH11zI?rel=0&amp;start=410" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+*Celeste*, on the other hand, also has wall-jumping, air control, and
+air-jumping (strictly, air-dashing – a short boost in a straight line, rather
+than following jump physics). And in that game, nearly every screen from the
+very start is going to require all three.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HEUmcxA-7rc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### How do we make difficulty measurable?
+
+The question on my sheet for "leeway for error" was an attempt to make "this
+game is hard" less of a subjective statement. I initially got the idea from [a
+blog post](http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html) by
+"Ghoul King", but have since found similar ideas cited earlier by the
+game-design show Extra
+Credits in ["When Difficult Is Fun"](https://www.youtube.com/watch?v=ea6UuRTjkKs).
+
+The basic idea here is that what makes a game "hard" can be split into two
+parts: "This bit requires a lot of skill or many tries" (jumps to tiny
+platforms, fast-moving enemies to dodge or fight, etc.) and "I have to do a
+dozen things in a row without messing any of them up once". The former is
+challenging; the latter is punishing.
+
+A **challenging** game pushes the player's skills. In *Yoshi's Island*, maybe
+you need to bounce a throw off a wall (or three) to hit an enemy behind you, or
+dodge enemy projectiles in free-fall, or get across a temporary bridge before
+the timer runs out. However, in most cases, messing up won't make you redo
+anything you've already done: You drop Baby Mario and have to run to grab him
+before time runs out, but you don't get tossed back to the last checkpoint
+unless you do run out of time. Additionally, you have to wait a few seconds
+after the recovery for the timer to refill, there's no timer unless you drop
+the baby, the auto-refill doesn't go over ten seconds (the max is thirty), and
+you get scored at the end based on (in addition to your collectible count, as
+mentioned in the section on collectibles) how much time you had left on it. The
+first two points push the player to take their time; the others emphasize
+avoiding mistakes, but generally don't make it hurt too much if you make them.
+
+By the end, the game's got the player doing some pretty fiddly stuff – but
+never required to rush, and always given plenty of chances.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v_KrSekt2ns?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+On the other hand, a **punishing** game requires you to avoid mistakes for long
+stretches at a time. The epitome of this, for me, is *Celeste*. Each screen has
+increasingly-precise jumps, tight passages full of spikes, wide gaps you can
+barely get over, and so on; you're given less and less stable ground to stand
+on the farther you go, and even if you do find a place to stand and breathe,
+messing one jump up sends you back to the beginning of the area. No one screen
+will take more than about thirty seconds or so, but by the time you can beat it
+once, you'll probably have spent minutes or hours redoing the earlier bits,
+pushing your death forward by a second (or less) at a time. On the other hand,
+that one culminating run where everything went exactly right is definitely a
+rush.  
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tUmccnkG4WE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+These are two very different kinds of difficult games, but unfortunately, my
+metric of "leeway for error" only covers how punishing a game is. Most *Kirby*
+games are neither punishing nor challenging, and the late stuff in *Celeste* is
+both punishing and challenging, while most of the 2D *Mario* games are fairly
+punishing (to varying degrees) but not very challenging (so it doesn't really
+matter, practically speaking, how punishing they are).
+
+## Pushing the boundaries BETTER TITLE, ALSO THIS IS A NEW TOP-SECTION
+NOT DONE YET
+
+
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
     "Configurable force-directed graph"
 [downwell]: https://www.devolverdigital.com/games/view/downwell
