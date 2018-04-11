@@ -206,14 +206,14 @@ So I took the spreadsheet, color-coded everything, sorted it a few different
 ways. Apart from games in a series often appearing to be fairly similar to each
 other, nothing jumped out at me. And that much wasn't exactly interesting.
 
-# TODO EMBED SCREENS HERE
-
 I also wrote [a d3 script][cfdg] to take the data and allow it to be grouped and
 organized. Again, though, I didn't see many patterns, and what I did find
-wasn't very helpful.
+was mostly unhelpful.
 
-Closer examination still wasn't very productive, and further consideration led
-me to find reasons why none of my metrics worked out.
+As such, instead of directly presenting patterns from the data, I'm doing my
+best to salvage things: For each category, I've gone into detail on what nuance
+was lost by my too-rough analysis, and what patterns I can see through close
+examination, even if I can't quantify them.
 
 So, let's go down the list, shall we?
 
