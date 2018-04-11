@@ -346,6 +346,16 @@ This is very much the sort of game I was thinking of in my earlier analysis;
 "enemies" serve mainly as things to jump over or bounce off of, rather than as
 something to fight.
 
+### Collectibles COME UP WITH A BETTER TITLE
+
+### Swimming and power-ups COME UP WITH A BETTER TITLE
+
+### Air control, airjumps, walljumps BETTER TITLE
+
+### How to measure difficulty? BETTER TITLE
+
+## Pushing the boundaries BETTER TITLE, ALSO THIS IS A NEW SECTION
+
 [vigaroe-yoshi]: http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html
     "Difficulty, Yoshi's Island"
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
