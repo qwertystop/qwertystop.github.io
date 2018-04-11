@@ -300,7 +300,55 @@ few other games had it.
 This might not be especially surprising, but I suppose it's nice to see my
 intuitions confirmed.
 
+### Combat styles
+The three different means of combat aren't mutually exclusive, so they took up
+three fields in my chart, but practically speaking it only makes sense to
+consider them together. When I was assembling the list, I had a few ideas of
+what they might indicate – melee combat leading to a sort of heedless-charge,
+action-y style; ranged combat for something slow and exploratory, using cover
+or hiding; jumping combat for a game that's really just about the platforming,
+with enemies used as temporary mobile obstacles or platforms rather than as
+something you actively fight.
+
+Two of these predictions were incorrect, and the third was questionable.
+
+My assumptions of pacing differences in melee and ranged combat seem to have
+been based on (poor, inaccurate, dim) recollections of specific games: 3D Sonic
+games for melee combat, and the Metroid series for ranged combat.
+
+Taking them one at a time, here's footage to illustrate why those assumptions
+don't hold. Clips from two melee-combat games, two ranged-combat games, and
+one game that features a mix of both combat styles.
+
+# FOOTAGE HERE FROM CASTLEVANIA, SONIC COLORS, METROID FUSION, CONTRA, KIRBY 2
+# INCLUDE COMMENTARY POINTING THINGS OUT IN EACH CLIP
+
+To be clear, my point here is not that these games are representative of all
+combat-styles, but that the combat style does not make for a reliable predictor
+of much else about the game.
+
+The idea I had for jumping combat seems to have been relatively accurate, but
+since the time I compiled this dataset, I've heard of at least one game
+(*[Downwell][downwell]*) that shows it's not a perfect summary.
+
+# CLIP OF DOWNWELL HERE
+
+It may not have made it on the list, but *Downwell* is a platformer that takes place largely in
+freefall: while you do have a gun in addition to the option to stomp enemies,
+that gun only shoots down, so you're still lining up jumps (from one head to
+the next) as the core of the combat.
+
+Compare that to *Donkey Kong Country: Tropical Freeze*:
+
+# CLIP OF DKCTF HERE
+
+This is very much the sort of game I was thinking of in my earlier analysis;
+"enemies" serve mainly as things to jump over or bounce off of, rather than as
+something to fight.
+
 [vigaroe-yoshi]: http://www.vigaroe.com/2017/05/difficulty-yoshis-island.html
     "Difficulty, Yoshi's Island"
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
     "Configurable force-directed graph"
+[downwell]: https://www.devolverdigital.com/games/view/downwell
+    "Publisher's official page for Downwell"
