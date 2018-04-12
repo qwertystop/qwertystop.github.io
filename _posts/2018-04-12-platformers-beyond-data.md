@@ -504,6 +504,12 @@ taking sole credit for making creative decisions. Any of these people may have
 different experiences, both in terms of preexisting games they might draw from,
 and in terms of anything else from which the creators might take inspiration\*.
 
+<p style="font-size: 0.8em; font-style: italic;">
+*(lighthearted) Yes, Professor, I know you don't like the word
+"inspiration", but I firmly believe the etymological implication of divinity is
+long-ago-and-far-away, and the use "takes inspiration from" avoids the
+grammatical who-has-agency issue.</p>
+
 Nobody in game design would ever claim to stand apart from preexisting works,
 not and expect the claim to be taken seriously. It's just that there's so many
 games, and very few people have the time to play a significant portion of them,
@@ -577,16 +583,23 @@ A planned feature that had to be cut to make deadlines, but which left evidence
 of its existence in old marketing materials? A glitch in development that
 turned out fun enough to leave in?
 
+The metaphor used in class was to a billiards table, but the scope of games
+in general and my project in particular means that there's a hundred cues, held
+by a dozen people each, and nobody's taking turns. If I had looked more closely
+at a small set of games, I might be able to come up with a plausible lineage
+for the ideas therein. However, doing so would give me no assurance as to my
+accuracy, and I believe that more is gained in this scenario by looking at what
+patterns are generally widespread. This is not to say that there's no benefit
+in looking closely at a few things, but if you're looking for a lineage without
+knowing what the designers actually thought and meant, it seems to me that
+you're just telling myths: it sounds nice, and it makes your point, but
+there's nothing to say whether the tale is actually true.
+
 In the end, I think I've established the existence of plenty of patterns,
 plenty to demonstrate that the game-development industry is looking at existing
 games (and other things) in the process of making new ones. Classifying the
 nature of the looking, or establishing a clear lineage of any given idea, is
 far beyond me.
-
-\* (lighthearted) *Yes, Professor, I know you don't like the word
-"inspiration", but I firmly believe the etymological implication of divinity is
-long-ago-and-far-away, and the use "*takes inspiration from*" avoids the
-grammatical who-has-agency issue.*"
 
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
     "Configurable force-directed graph"
