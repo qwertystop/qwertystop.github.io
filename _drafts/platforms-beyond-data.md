@@ -132,11 +132,50 @@ been based on (poor, inaccurate, dim) recollections of specific games: 3D Sonic
 games for melee combat, and the Metroid series for ranged combat.
 
 Taking them one at a time, here's footage to illustrate why those assumptions
-don't hold. Clips from two melee-combat games, two ranged-combat games, and
-one game that features a mix of both combat styles.
+don't hold. Clips from one melee-combat game, one ranged-combat game, and one
+game that features a mix of both combat styles.
 
-# FOOTAGE HERE FROM CASTLEVANIA, SONIC COLORS, METROID FUSION, CONTRA, KIRBY 2
-# INCLUDE COMMENTARY POINTING THINGS OUT IN EACH CLIP
+In *Castlevania: Symphony of the Night*, your main options for fighting are
+melee. Most enemies are also limited to melee combat; as such, fights tend to
+boil down to stepping forward and backward to dodge enemy swings (or using a
+shield, if your shield is good enough to block whatever you're fighting) while
+stabbing back. It's... at least slightly tense, and mostly about positioning.
+The game as a whole, though, is not about the fighting, but about the
+exploring; as such each individual monster is basically a speedbump, not
+especially difficult to defeat. They keep you more engaged than
+walking through an empty maze, and harder enemies keep you out of areas you're
+not equipped for (while also emphasizing how much better your new gear is, when
+you're ready to return).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RzzsQWy0bug?rel=0&amp;start=32" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+In *Metroid II: Return of Samus*, combat is again mostly not the point, and
+enemies are mostly obstacles. It's structured a bit differently from
+*Castlevania: SOTN*; enemies are easier to avoid, rather than fight through,
+but either way mostly just slow you down and provide atmosphere. *Return of
+Samus* is actually a bit more combat-focused than most other *Metroid* games,
+in that there are forty-odd required boss or mini-boss fights against half a
+dozen different types of the titular "Metroids". Even so, it's much more about
+the hunt through claustrophobic caves, and the atmosphere of a mission
+somewhere between extermination and genocide (for context, think of a
+real-world attempt to force the extinction of, say, a species of bear as smart
+as a particularly clever dogs, after some organization trained a few of them to
+attack people), and much less about the relatively short battles when you find
+the things.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JaFG3LFHhlc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+In *Kirby's Dream Land 2*, you have both melee and ranged combat options.  Most
+enemies are dispatched in one hit, though – they're minor obstacles, something
+to stop you from just sprinting across the whole level. The bosses and
+mini-bosses are more challenging, but are still more about dodging than the
+details of how you hit back. Interesting gameplay there comes mostly from the
+optional two-part puzzles: find where the shiny secret thing is, then determine
+how to get there while using a specific power and companion, which might not be
+available nearby and might have interesting movement restrictions to make the
+path harder.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c7KU-kB7o4Q?rel=0&amp;start=1248" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 To be clear, my point here is not that these games are representative of all
 combat-styles, but that **the combat style does not make for a reliable predictor
@@ -155,11 +194,12 @@ one head to the next) as the core of the combat.
 
 Compare that to *Donkey Kong Country: Tropical Freeze*:
 
-# CLIP OF DKCTF HERE
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5BuEO7WnlJ4?rel=0&amp;start=37" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 This is very much the sort of game I was thinking of in my earlier analysis:
 "enemies" serve mainly as things to jump over or bounce off of, rather than as
-something to fight.
+something to fight. They're in the way, but they're easily avoided and
+nonthreatening.
 
 ### Collectibles, hidden and sought
 
@@ -172,7 +212,7 @@ levels, the hardest in the game. These games use collectibles as **a way for the
 player to prove their mastery**, and then **reward the player with more challenges
 to master**.
 
-# YOSHI'S ISLAND SCOREBOARD, ADD CAPTION
+![Yoshi's Island perfect-level scoreboard](/assets/img/yoshiscoreboard.png)
 
 In others, such as most "Metroidvania" games, collectibles take the form of
 small upgrades (usually for health, ammunition, or similar). These games
@@ -187,8 +227,6 @@ enough to find all the upgrades is unlikely to actually need them. Still, **the
 fact that each one provides some tangible benefit can get players to look** – or,
 at least, to enjoy incidental finds – when the journey isn't enough on its own.
 
-# SCREEN ILLUSTRATING SUPER METROID OR SOTN COLLECTIBLES
-
 Still other games put collectibles front-and-center; this is a defining trait
 of "collectathons", which were a major subgenre of early 3D platformers that
 haven't gone away completely. In this case, finding all the hidden things is
@@ -200,9 +238,7 @@ five feet behind your starting location. There may be rewards given at various
 increments – usually unlocking new areas to explore – but these will eventually
 run dry. **The journey is the destination again**, but this time without much
 pretense of any other reason to search, so **those players who aren't motivated
-by completionism are unlikely to stay interested for long**.
-
-# SCREEN SHOWING COLLECTIBLE COUNT FOR A COLLECTATHON
+by completionism are likely to stop before the end**.
 
 ### Three approaches to the power-up
 
