@@ -451,10 +451,10 @@ just a background for the game).  Maneuvering among obstacles and through
 passageways, often while solving puzzles or battling pirates, is a core part of
 the gameplay, even though gravity is mostly irrelevant to your own movement.
 You may not need to worry about falling into pits or onto spikes, but you do
-still need to maintain a keen awareness of your momentum and surroundings;
+still need to maintain a keen awareness of your movement and surroundings;
 traversal is still core to the game.
 
-# RECORD A CLIP OF OWLBOY MANEUVERING
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xpl0rErG6_s?rel=0&amp;start=12" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 [*Downwell*][downwell] is a platformer initially designed for mobile phones, and is meant
 to be played with the phone held in "portrait" orientation. As such, it's one
