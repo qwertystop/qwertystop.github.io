@@ -458,6 +458,85 @@ but haven't had the skill to finish.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4NNPr2Ay4OM?rel=0&amp;start=71" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+## Bringing it back around to the start
+
+These two posts are, at least nominally, a class project. And the topic of the
+class, in the end, is originality, derivation, influence, and so on. It's
+difficult to apply many of the ideas from the class to game design; the process
+of making a game usually involve many people, often without any one person
+taking sole credit for making creative decisions. Any of these people may have
+different experiences, both in terms of preexisting games they might draw from,
+and in terms of anything else from which the creators might take inspiration\*.
+
+Nobody in game design would ever claim to stand apart from preexisting works,
+not and expect the claim to be taken seriously. It's just that there's so many
+games, and very few people have the time to play a significant portion of them,
+let alone analyze everything; the specific originator of a given idea is very
+difficult to pin down. That goes doubly so when the design element in question
+wasn't a major focus of the game, when you have to distinguish between the
+first game to do something and the first game to do it well, or when something
+started out as a glitch.
+
+For an example, take wall-jumping: In my dataset, *Super Metroid* was the
+earliest game to have it, but *Super Mario 64* was the first game to actually
+tell the player about it clearly. I don't know of any earlier game that
+intentionally included it, but I do know that many older platformers,
+including (but not limited to) the original *Super Mario Bros.*, technically
+had walljumping due to a glitch: The world is built up from tiles, and so the
+top corner of tile in a wall could be treated as a floor, if you hit a wall
+exactly at the border between tiles.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aXgwYSi_blc?rel=0&amp;start=16" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Is that, then, a first source for wall-jumping? It's certainly possible that
+the developers of *Super Metroid* may have known of a wall-jump glitch in any
+of the many tile-based platformers that existed at the time. However, I can't
+find information on how widely-known the glitch was at the time in any given
+game, and the idea could just as easily have come from exaggerating real-world
+feats of athleticism.
+
+For another example, *Snake Pass* again. Certainly, the cartoony aesthetic and
+collectathon gameplay of clearly call back to the 3D platformers of the late 90s and
+early 00s. However, the notable bit about the game – the fact that you are a
+snake, who moves in roughly the manner of real snakes – has been stated by the
+original designer to have two sources.
+
+1. A mistake in a tech demo.
+2. Actual snakes.
+
+> Seb Liese: When Sumo Digital gave me a small period of time to try to learn
+> Unreal Engine, one of the things I tried to make early on was a rope that
+> would move when a player touches it. As I was creating this rope, I pressed
+> the play button and had forgotten to attach it to the ceiling. When I saw it
+> fall on the floor in this really nice smooth shape that collided with itself
+> I thought back to my background as a biology teacher, when I had two pet
+> snakes, and I instantly thought ‘hey, this could be a snake!’
+[The Making Of Snake Pass – interview by Nintendo UK with Seb Liese](https://www.nintendo.co.uk/News/2017/April/The-Making-Of-Snake-Pass-1213865.html)
+
+There's so much out there, and so many things being made concurrently, that I
+have no real way to tell whether a design choice was based on a particular
+preexisting game, was part of a general zeitgeist, or developed from a chain of
+coincidence. At least, not unless someone on the design team has gone on record
+– and even then, if it's years after the game's release, people have been known
+to contradict themselves and each other.
+
+*Interesting, novel* choices are more likely to result in an interview leading
+to such a thing being on record, but that's still no guarantee. In the *Snake
+Pass* example above, the same design could have come from entirely different
+sources: perhaps the chain would go something like "What if you had a
+platformer with no jumping? Well, just walking is boring. What moves in a more
+interesting way than walking? Snakes!" We have Liese's word in that interview
+that it wasn't like that, that it started with a snake and then developed along
+the question of what would be entertaining to *do* as a snake. Without that,
+though, there's so many different elements in a game that need to fit together,
+and no real way to know which one came first, which had to bend to allow the
+others to work.
+
+\* (lighthearted) *Yes, Professor, I know you don't like the word
+"inspiration", but I firmly believe the etymological implication of divinity is
+long-ago-and-far-away, and the use "*takes inspiration from*" avoids the
+grammatical who-has-agency issue.*"
+
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
     "Configurable force-directed graph"
 [downwell]: https://www.devolverdigital.com/games/view/downwell
