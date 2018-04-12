@@ -568,6 +568,21 @@ though, there's so many different elements in a game that need to fit together,
 and no real way to know which one came first, which had to bend to allow the
 others to work.
 
+The specific terms taught in class often revolve around *intent* – the intent
+to "swerve" from established patterns, or parody them, or uphold them, for
+example. Business concerns rarely came into the picture How does one tell apart
+a game sticking to the patterns to appeal to an established market, from one
+that aimed for novelty but ended up too subtle for most people to tell?
+A planned feature that had to be cut to make deadlines, but which left evidence
+of its existence in old marketing materials? A glitch in development that
+turned out fun enough to leave in?
+
+In the end, I think I've established the existence of plenty of patterns,
+plenty to demonstrate that the game-development industry is looking at existing
+games (and other things) in the process of making new ones. Classifying the
+nature of the looking, or establishing a clear lineage of any given idea, is
+far beyond me.
+
 \* (lighthearted) *Yes, Professor, I know you don't like the word
 "inspiration", but I firmly believe the etymological implication of divinity is
 long-ago-and-far-away, and the use "*takes inspiration from*" avoids the
