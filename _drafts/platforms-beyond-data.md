@@ -6,12 +6,12 @@ category: analysis
 tags: games
 ---
 
-In my [previous post](/analysis/platformers-by-data), I went into
-detail on my attempt to quantify the design of platformers at a broad level for
-analysis. This time, the results, and moving on from them. Last time was **The
-Data-Driven Analysis of Platformers**, and now we have:
+In my [previous post](/analysis/platformers-by-data), I went into detail on my
+plan to quantify the design of platformers at a broad level for analysis. This
+time, I'll be going over the results of that analysis, and moving on from them.
+Last time was **The Data-Driven Analysis of Platformers**, and now we have:
 
-## And Why It Didn't Work
+## Why It Didn't Work
 Turns out, nuance is an important thing. *Sure*, it sounds obvious in
 retrospect...
 
@@ -22,11 +22,11 @@ ways. Apart from games in a series often appearing to be fairly similar to each
 other, nothing jumped out at me. And that much wasn't exactly interesting.
 
 I also wrote [a d3 script][cfdg] to take the data and allow it to be grouped and
-organized. Again, though, I didn't see many patterns, and what I did find
+organized. Again, I didn't see many patterns, and what I did find
 was mostly unhelpful.
 
 As such, instead of directly presenting patterns from the data, I'm doing my
-best to salvage things: For each category, I've gone into detail on what nuance
+best to salvage things: for each category, I've gone into detail on what nuance
 was lost by my too-rough analysis, and what patterns I can see through close
 examination, even if I can't quantify them.
 
@@ -40,13 +40,13 @@ lot in common**. Unfortunately, that doesn't give me very much information. Ever
 metric was similar across all or almost all of the games in any given series.
 
 One notable standout here was a correlation with the **2D/3D divide**, which
-seems almost like a subseries: Games in the same series most often had
+seems almost like a subseries: games in the same series most often had
 differences in metrics when one game was 2D and the other was 3D. This is a
 somewhat interesting design choice; 2D and 3D games are capable of presenting
 similar experiences, but developers of platformers seem not to want to go in
-that direction. This is more true in some cases than others, of course: Compare
-Metroid games, which are usually fairly similar in gameplay, to Mario or Sonic,
-which have two fairly distinct blocks.
+that direction. This is more true in some cases than others, of course: compare
+*Metroid* games, which are usually fairly similar in gameplay, to *Mario* or
+*Sonic*, which have two fairly distinct blocks.
 
 Dotted lines separate 2D from 3D games; solid lines separate series from each
 other.
@@ -74,7 +74,7 @@ which would tend to mask whatever commonalities were actually part of the genre.
 
 There is insufficient data for a meaningful result here.
 
-### Plot and player-count: Mainly a side-note.
+### Plot and Player-Count: Mainly a Side Note.
 
 The presence or absence of a story generally meant little for the rest of the
 gameplay: **A story can be applied to, or witheld from, just about any game
@@ -116,7 +116,7 @@ This might not be especially surprising, but I suppose it's nice to see my
 intuitions confirmed.
 
 ### Combat styles
-The three different means of combat aren't mutually exclusive, so they took up
+**The three different means of combat aren't mutually exclusive**, so they took up
 three fields in my chart, but practically speaking it only makes sense to
 consider them together. When I was assembling the list, I had a few ideas of
 what they might indicate – melee combat leading to a sort of heedless-charge,
@@ -168,9 +168,9 @@ dataset. In some games, such as the original *Yoshi's Island* or the *New Super
 Mario Bros.* sub-series, finding all the hidden things is a goal in and of
 itself. They're all over the place (*Yoshi's Island* has twenty-five; *New
 Super Mario Bros.* has three), and finding all of them unlocks even more
-levels, the hardest in the game. These games use collectibles as a way for the
-player to prove their mastery, and then reward the player with more challenges
-to master.
+levels, the hardest in the game. These games use collectibles as **a way for the
+player to prove their mastery**, and then **reward the player with more challenges
+to master**.
 
 # YOSHI'S ISLAND SCOREBOARD, ADD CAPTION
 
@@ -181,10 +181,10 @@ congratulation at the end for 100% completion, but the main reason to hunt them
 down is that they make the game easier (or that you find them while looking for
 something else). They're not required, and in fact, players looking for a
 challenge are as likely to go for a no-upgrade run as they are to aim for 100%.
-In this case, finding them all is about persistence more than anything else,
-and the journey is most of the reward, because anyone who's played the game
-enough to find all the upgrades is unlikely to actually need them. Still, the
-fact that each one provides some tangible benefit can get players to look – or,
+In this case, **finding them all is about persistence more than anything else,
+and the journey is most of the reward**, because anyone who's played the game
+enough to find all the upgrades is unlikely to actually need them. Still, **the
+fact that each one provides some tangible benefit can get players to look** – or,
 at least, to enjoy incidental finds – when the journey isn't enough on its own.
 
 # SCREEN ILLUSTRATING SUPER METROID OR SOTN COLLECTIBLES
@@ -198,9 +198,9 @@ miscellaneous shinies you're hunting down are as likely to be on the other side
 of a tricky gauntlet of difficult jumps as they are to be under a random bush
 five feet behind your starting location. There may be rewards given at various
 increments – usually unlocking new areas to explore – but these will eventually
-run dry. The journey is the destination again, but this time without much
-pretense of any other reason to search, so those players who aren't motivated
-by completionism are unlikely to stay interested for long.
+run dry. **The journey is the destination again**, but this time without much
+pretense of any other reason to search, so **those players who aren't motivated
+by completionism are unlikely to stay interested for long**.
 
 # SCREEN SHOWING COLLECTIBLE COUNT FOR A COLLECTATHON
 
@@ -214,11 +214,11 @@ a common one across a variety of games. *Sonic* games often provide [shields
 with side-effects](http://sonic.wikia.com/wiki/Item_Box#List_of_power-ups),
 *Mario* games tend more towards costumes (that look like [miscellaneous
 objects](https://www.mariowiki.com/List_of_power-ups) until used). In both
-of these cases, and some others, power-ups are treated by the game design as a
-prize, and a bit of relief: Find them, and things get a bit easier for a while.
+of these cases, and some others, power-ups are treated by the game design as **a
+prize, and a bit of relief**: find them, and things get a bit easier for a while.
 
 On the other hand, *Kirby* games (for example) treat power-ups more like
-equipment. They're not required, but they're not hidden prizes, either: You can
+equipment. **They're not required, but they're not hidden prizes, either**: you can
 find them all over the place, there's a wide variety of powers, and you only
 rarely need to have any specific one (usually for optional challenges, where
 the challenge is "how do I get to this place without losing this power" rather
@@ -229,10 +229,10 @@ they're not as heavily emphasized there) is *Castlevania: Symphony of the
 Night* (specifically, the
 [sub-weapons](http://castlevania.wikia.com/wiki/Symphony_of_the_Night_Inventory#Sub-Weapons)).
 In both cases, powers aren't required, and they aren't (usually) a prize;
-they're just one more thing to mess around with.
+**they're just one more thing to mess around with**.
 
 In yet a third group, some games will shove a power-up at you at the start of a
-section, which provides a major change in the gameplay while it lasts. You
+section, which provides **a major change in the gameplay while it lasts**. You
 can't beat the level without that boost, and it won't be given where it isn't
 necessary. One example of this is the Feather in *Celeste*:
 
@@ -251,7 +251,7 @@ there if he can't reach the end before a time limit. For example, the third
 ### Submersive diversions
 
 Swimming is generally treated by most platformers as something similar to the
-third kind of power-up: A section of the game that plays differently from the
+third kind of power-up: a section of the game that plays differently from the
 rest. Where water is present in a game, and not treated as an instant-death
 hazard, there's two common ways of handling it (and one less-common), plus one
 optional addendum.
@@ -290,7 +290,7 @@ I couldn't find a better clip – as I said, this is rare.
 ### Unusual modes of mobility
 
 Air-jumps, air-control, and wall-jumps. The most physically plausible of these
-was also the last to come to platformers: Air-jumping and air-control give
+was also the last to come to platformers: air-jumping and air-control give
 the player more control over what they're doing, while also being fairly
 trivial to add to a game in development: just don't bother checking whether the
 character is on the ground when the player tries to move or jump! Those have
@@ -301,7 +301,7 @@ present, the only question being one of scale.
 Wall-jumping, on the other hand, is a whole new thing – still around for ages,
 but slightly shorter ones, and there's plenty of games that deliberately don't
 have it or limit it. The addition of a walljump adds entirely new questions:
-What angle do they jump at, and how fast? Should it be straight up, usable to
+what angle do they jump at, and how fast? Should it be straight up, usable to
 climb a wall, or do you need two walls close together to bounce between? Or is
 it nearly horizontal, so you can't gain height with it, only move laterally? If
 you're close enough to a wall to jump, can you slide down it to fall slower?
@@ -325,10 +325,10 @@ maneuvering, and only require the use of air-jumps for occasional collectibles
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YUj5XAH11zI?rel=0&amp;start=410" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-*Celeste*, on the other hand, also has wall-jumping, air control, and
-air-jumping (strictly, air-dashing – a short boost in a straight line, rather
-than following jump physics). And in that game, nearly every screen from the
-very start is going to require all three.
+*Celeste* also has wall-jumping, air control, and air-jumping (strictly,
+air-dashing: a short boost in a straight line, rather than following jump
+physics). Unlike in *New Super Mario Bros.*, though, nearly every screen in all
+of *Celeste* is going to require all three.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HEUmcxA-7rc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -351,7 +351,7 @@ A **challenging** game pushes the player's skills. In *Yoshi's Island*, maybe
 you need to bounce a throw off a wall (or three) to hit an enemy behind you, or
 dodge enemy projectiles in free-fall, or get across a temporary bridge before
 the timer runs out. However, in most cases, messing up won't make you redo
-anything you've already done: You drop Baby Mario and have to run to grab him
+anything you've already done: you drop Baby Mario and have to run to grab him
 before time runs out, but you don't get tossed back to the last checkpoint
 unless you do run out of time. Additionally, you have to wait a few seconds
 after the recovery for the timer to refill, there's no timer unless you drop
@@ -370,22 +370,29 @@ On the other hand, a **punishing** game requires you to avoid mistakes for long
 stretches at a time. The epitome of this, for me, is *Celeste*. Each screen has
 increasingly-precise jumps, tight passages full of spikes, wide gaps you can
 barely get over, and so on; you're given less and less stable ground to stand
-on the farther you go, and even if you do find a place to stand and breathe,
-messing one jump up sends you back to the beginning of the area. No one screen
-will take more than about thirty seconds or so, but by the time you can beat it
-once, you'll probably have spent minutes or hours redoing the earlier bits,
-pushing your death forward by a second (or less) at a time. On the other hand,
-that one culminating run where everything went exactly right is definitely a
-rush.  
+on the farther you go, and even if you do find a place to stop and take a
+breath, messing one jump up sends you back to the beginning of the area. No one
+screen will take more than about thirty seconds or so, but by the time you can
+beat it once, you'll probably have spent minutes or hours redoing the earlier
+bits, pushing your death forward by a second (or less) at a time. On the other
+hand, that one culminating run where everything went exactly right is
+definitely a rush.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tUmccnkG4WE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 These are two very different kinds of difficult games, but unfortunately, my
-metric of "leeway for error" only covers how punishing a game is. Most *Kirby*
-games are neither punishing nor challenging, and the late stuff in *Celeste* is
-both punishing and challenging, while most of the 2D *Mario* games are fairly
-punishing (to varying degrees) but not very challenging (so it doesn't really
-matter, practically speaking, how punishing they are).
+metric of "leeway for error" only covers how punishing a game is.
+
+- Most *Kirby* games are neither punishing nor challenging, and when they
+  diverge from this, it's generally by adding a boss-rush (making you fight
+  every boss in the game with limited healing in-between). Even if the
+  individual fights are easy, small slip-ups add up over ten to nineteen
+  consecutive bouts (depending on the game), so that's punishing.
+- *Celeste* starts off more punishing than challenging, but by the end, it's
+  both.  both punishing and challenging
+- Most of the 2D *Mario* games are moderately punishing (to varying degrees)
+  but only mildly challenging (so it doesn't really matter, practically
+  speaking, how punishing they are).
 
 ## Pushing the boundaries BETTER TITLE, ALSO THIS IS A NEW TOP-SECTION
 NOT DONE YET
