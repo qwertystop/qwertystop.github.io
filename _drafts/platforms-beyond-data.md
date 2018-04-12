@@ -389,13 +389,74 @@ metric of "leeway for error" only covers how punishing a game is.
   individual fights are easy, small slip-ups add up over ten to nineteen
   consecutive bouts (depending on the game), so that's punishing.
 - *Celeste* starts off more punishing than challenging, but by the end, it's
-  both.  both punishing and challenging
+  got both in spades.
 - Most of the 2D *Mario* games are moderately punishing (to varying degrees)
   but only mildly challenging (so it doesn't really matter, practically
   speaking, how punishing they are).
 
-## Pushing the boundaries BETTER TITLE, ALSO THIS IS A NEW TOP-SECTION
-NOT DONE YET
+## Pushing the boundaries
+
+This next bit moves ever-farther from my original analysis, but it was also one
+of my early goals that proved incompatible with a data-driven view. On the
+other hand, that's well out the window by now.
+
+It seems interesting to have a look at some games that push the boundaries of
+"platformers". Three came to mind. One, *Owlboy*, made it into my original dataset. One,
+*Downwell*, got a mention earlier, in the combat section. The third, *Snake
+Pass* is here only. **All three make major changes to what seems to be the most
+fundamental mechanic in a platformer: the jump**.
+
+In [*Owlboy*](http://owlboygame.com/), you play as Otus, who is one of many owl-people who live on a
+flying archipelago (there's quite a lot of story). As such, you can fly
+freely for nearly the entire game (except for a few scenes that take place in
+rainstorms). Nevertheless, the nature of the game as a platformer isn't just a
+stylistic variation on, say, old top-down RPGs (where the environment is mostly
+just a background for the game).  Maneuvering among obstacles and through
+passageways, often while solving puzzles or battling pirates, is a core part of
+the gameplay, even though gravity is mostly irrelevant to your own movement.
+You may not need to worry about falling into pits or onto spikes, but you do
+still need to maintain a keen awareness of your momentum and surroundings;
+traversal is still core to the game.
+
+# RECORD A CLIP OF OWLBOY MANEUVERING
+
+[*Downwell*][downwell] is a platformer initially designed for mobile phones, and is meant
+to be played with the phone held in "portrait" orientation. As such, it's one
+of the rare platformers to be largely vertical; even more unusually, it's the
+only such game I know of to be about falling rather than climbing. In
+*Downwell*, you are falling down a monster-infested well, with guns
+strapped to your feet. Ammunition is very limited, but is refilled every time
+you land on an outcropping or an enemy. Shooting doubles as a way to slow your
+fall (with the recoil). That plus a combo system is the core of the game; it's
+a mobile game, so depth-from-simplicity is the order of the day. This one is
+probably the least questionable to consider as a platformer, and the one that
+pushes the definition the least; sure, it's more about falling than jumping,
+but you're still carefully aiming your fall, and frankly there's nothing
+preventing something like this from being a level in any number of existing
+platformers.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/i5C1Uj7jJCg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Finally, [*Snake Pass*](http://www.snake-pass.com/). Where *Owlboy* replaced
+jumping with flying, and *Downwell* moved focus away from the jump and onto the
+fall that follows, *Snake Pass* has no jumping whatsoever. In *Snake Pass*, you
+are Noodle, a snake (apparently a [coral
+snake](https://en.wikipedia.org/wiki/Coral_snake), going by [the
+banding](https://static1.squarespace.com/static/581c7ae0e4fcb5a092598bd2/581c8186893fc0a7a309170e/583705fe59cc684019d67b0e/1485792394118/Snake-Pass---Fire-Screenshot-2.jpg)).
+Snakes cannot jump, but they can climb. It's a very different sort of
+platformer, and pushes the limits as much or more than *Owlboy*, though in a
+different direction. Where *Owlboy* has freewheeling acrobatics and light
+gunplay, *Snake Pass* has carefully wrapping around sticks and poles, hunting
+for various treasures while being sure not to fall, and no combat whatsoever.
+It could be called a delicate balancing act, except that if you're trying to
+actually *balance* on anything you're already doomed, because you're a *snake*.
+Get a grip, that's the way to do it. Metaphorically, though, it works. On the
+one hand, you've got friction; on the other, gravity. Your tail holds you up
+and pulls you down, all at once. It's a fiddly game, and one of the few in
+either this post or my collected data which I've had the opportunity to start,
+but haven't had the skill to finish.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4NNPr2Ay4OM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 [cfdg]: https://qwertystop.github.io/config-d3-fdg/
