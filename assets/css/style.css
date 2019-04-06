@@ -72,3 +72,9 @@ a:hover, a:active, a:focus {
 	border-top: 1px solid #666;
 	font-size: 0.8em;
 }
+
+.aside {
+	font-size: 0.9em;
+	font-style: italic;
+	text-indent: 2em each-line;
+}
