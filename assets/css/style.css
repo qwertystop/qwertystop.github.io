@@ -2,13 +2,12 @@ body {
 	background-color: #135;
 	font-family: georgia;
 	line-height: 1.2;
-	font-size: 1.2em;
 	color: #ddd;
 }
 
 #wrapper {
 	float: left;
-	width: 35em;
+	max-width: min(35em, 100%);
 	margin: 2em;
 }
 
@@ -77,4 +76,25 @@ a:hover, a:active, a:focus {
 	font-size: 0.9em;
 	font-style: italic;
 	text-indent: 2em each-line;
+}
+
+.thumbnail-grid {
+	display: grid;
+	grid: auto-flow dense / repeat(auto-fit, minmax(10em, 1fr));
+	list-style: none;
+	padding: 0;
+	grid-gap: 10px;
+	gap: 10px;
+}
+
+.thumbnail-grid li {
+	padding: 1em;
+	text-align: center;
+	background-color: #468;
+	border: 1px solid #345;
+}
+
+.thumbnail-grid img {
+	min-width: 50%;
+	max-width: 100%;
 }
