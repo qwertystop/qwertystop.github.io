@@ -1,22 +1,5 @@
-<p id="ancestors">
- <a class="ancestor" href="/">Back to Hobbyist's Heap</a>
- <br>
-  <!-- Breadcrumbing code modified from https://jekyllcodex.org/without-plugin/breadcrumbs/ -->
-  {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-  {% for crumb in crumbs offset: 1 %}
-    {% unless forloop.last %}
-      <a class="ancestor"
-       href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">
-       {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
-      </a>
-      <br>
-    {% endunless %}
-  {% endfor %}
-</p>
-</div>
-<div id="footer">
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+{%- include breadcrumbs.html -%}
+<!-- TODO add RSS? <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
 <span>Content © 2020 Vivian Heyman.</span>
 <span>Style based on <a href="https://qntm.org">Things of Interest</a>.</span>
 <span>Site built with <a href="https://jekyllrb.com/">Jekyll</a>.</span>
-</div>

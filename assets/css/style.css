@@ -3,26 +3,36 @@ body {
 	font-family: georgia;
 	line-height: 1.2;
 	color: #ddd;
+	width: min(35em, 100%);
+	margin: 2em;
 }
 
-#wrapper {
-	float: left;
-	max-width: min(35em, 100%);
-	margin: 2em;
+header > .breadcrumbs {
+	font-size: 0.8em;
+}
+
+.breadcrumb:after {
+	content: " / "
+}
+
+main {
+	margin: 3em 0;
+}
+
+footer {
+	display: inline;
+	text-align: center;
+	color: #999;
+	margin: 3em 0 0 0;
+	padding-top: 1em;
+	border-top: 1px solid #666;
+	font-size: 0.8em;
 }
 
 h1 {
 	font-size: 1.5em;
 	font-weight: bold;
 	border-bottom: 1px solid #666;
-}
-
-#breadcrumbs {
-	font-size: 0.8em;
-}
-
-.breadcrumb:after {
-	content: " / "
 }
 
 h2 {
@@ -58,24 +68,8 @@ a:hover, a:active, a:focus {
 	color: #dd4;
 }
 
-#content {
-	margin: 3em 0;
-}
-
-#footer {
-	display: inline;
-	text-align: center;
-	color: #999;
-	margin: 3em 0 0 0;
-	padding-top: 1em;
-	border-top: 1px solid #666;
-	font-size: 0.8em;
-}
-
-.aside {
-	font-size: 0.9em;
-	font-style: italic;
-	text-indent: 2em each-line;
+img {
+	max-width: 100%;
 }
 
 .thumbnail-grid {

@@ -4,7 +4,7 @@ canvas#canvas { width: 512px; height: 512px; }
 	float:left;
 	width:92px;
 	display:inline-block;
-  	margin: 1px;
+	margin: 1px;
 	padding: 4px;
 	text-align: center;
 	color:#fff;
@@ -37,14 +37,27 @@ canvas {
   border: 0px;
 }
 
+body.pico8page {
+	width: min(60em, 100%);
+	display: grid;
+	grid-template:
+		"header header"
+		"main pico"
+		"footer footer"
+		/ 1fr 1fr
+	;
+}
+body.pico8page > header {
+	grid-area: header;
+}
+body.pico8page > main {
+	grid-area: main;
+	margin: 0;
+}
 div.pico8 {
-	float: right;
+	grid-area: pico;
+	margin: 1em;
 }
-
-#wrapper.pico8page {
-	width: 60em;
-}
-
-#wrapper.pico8page main {
-	width: 30em;
+body.pico8page > footer {
+	grid-area: footer;
 }
