@@ -1,0 +1,16 @@
+<div class="breadcrumbs">
+ <!-- Breadcrumbing code modified from https://jekyllcodex.org/without-plugin/breadcrumbs/ -->
+ {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+ <span class="breadcrumb">
+  <a href="/">Hobbyist's Heap</a>
+ </span>
+ {% for crumb in crumbs offset: 1 %}
+   {% if forloop.last %}
+     {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+   {% else %}
+   <span class="breadcrumb">
+     <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+   </span>
+   {% endif %}
+ {% endfor %}
+</div>
