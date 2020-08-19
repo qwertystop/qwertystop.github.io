@@ -2,7 +2,7 @@ body {
 	background-color: #135;
 	font-family: georgia;
 	line-height: 1.2;
-	color: #ddd;
+	color: #258;
 	width: min(35em, 100%);
 	margin: 2em;
 }
@@ -39,29 +39,29 @@ h2 {
 	margin: 2em 0 1em;
 	font-size: 1.25em;
 	font-weight: bold;
-	color: #98afd4;
+	color: #9bd;
 	border-bottom: 1px dotted #666;
 }
 
 h3 {
 	font-size: 1.1em;
 	font-weight: bold;
-	color: #98afd4;
+	color: #9bd;
 }
 
 h3 {
 	font-size: 1.1em;
 	font-weight: italic;
-	color: #98afd4;
+	color: #9bd;
 }
 
 a {
-	color: #3d3;
+	color: #4c3;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #493;
+	color: #4a3;
 }
 
 a:hover, a:active, a:focus {
